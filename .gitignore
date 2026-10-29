@@ -1,0 +1,5 @@
+# Intermediate playback files; distribute MP3 rehearsal audio instead.
+*.mid
+*.midi
+*.wav
+*.log
