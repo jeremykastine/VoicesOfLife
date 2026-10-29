@@ -4,9 +4,9 @@
 \paper { #(set-paper-size "letter") top-margin = 12\mm bottom-margin = 12\mm left-margin = 13\mm right-margin = 12\mm ragged-last-bottom = ##f
  system-system-spacing = #'((basic-distance . 18) (minimum-distance . 14) (padding . 3) (stretchability . 12)) }
 \header { title = "HARK! THE HERALD ANGELS SING"
- subtitle = "Soprano, Alto & Baritone with Piano"
+ subtitle = "Pentatonix Version — Soprano, Alto & Baritone with Piano"
  composer = "Charles Wesley / Felix Mendelssohn"
- arranger = "Adapted for Voices of Life from the supplied PTX / Ben Bram arrangement"
+ arranger = "Adapted for Voices of Life from the Pentatonix / Ben Bram arrangement"
  copyright = \markup \fontsize #-3 \center-column { "Source arrangement copyright 2014 Sony/ATV Music Publishing and the publishers named in the supplied score." "Original arrangement rights remain with their owners." }
  tagline = ##f }
 global = { \key e \major \time 4/4 \mark \markup \box "A - Moderately" \tempo 4 = 104 s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 \mark \markup \box "B - Twice as fast" \tempo 4 = 240 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 \mark \markup \box "C - Broad melody" s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 \mark \markup \box "D - Riff returns" s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break \mark \markup \box "E - Bridge" s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break \mark \markup \box "F - Closing vamp" s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 s1 \break s1 s1 s1 \mark \markup \box "G - Ending" s1 \break s1 s1 s1 s1 \break s1 s1 \bar "|." }
