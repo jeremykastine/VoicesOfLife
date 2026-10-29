@@ -2,8 +2,8 @@
 \pointAndClickOff
 % THIS CHRISTMAS - soprano, alto, baritone and piano
 % Source: the four score screenshots supplied with this request.
-% The two piano staves retain the source pitches, note durations, rests,
-% ties, repetitions and meter changes. Editorial vocal notes are separate.
+% Piano pitches, rests, ties, repetitions and meters follow the source.
+% Piano RH dotted eighth/sixteenth corrections: mm. 3, 4, 7, 8 beat 2; m. 10 beat 4.
 % Concert pitch. Baritone uses bass clef and sounds as written.
 % Compile: lilypond this-christmas-sab.ly
 % Produces the matching PDF and an intermediate MIDI for rendering the rehearsal MP3.
@@ -72,14 +72,14 @@ pianoRHIntro = {
   f'1 | % 2
 }
 pianoRHBody = {
-  <e' a'>4 a'8 a' c'' a' g'( f') | % 1
-  <f' a'>4 a'8 a' c'' a' g' f' | % 2
+  <e' a'>4 a'8. a'16 c''8 a' g'( f') | % 1
+  <f' a'>4 a'8. a'16 c''8 a' g' f' | % 2
   <d' g'>8 <d' f'>4.~ <d' f'>2 | % 3
   r4 <g' d''>4 <f' c''> <f' a'> | % 4
-  <e' a'>4 a'8 a' c'' a' g'( f') | % 5
-  <f' a'>8 a' a' a' c'' a' g' f' | % 6
+  <e' a'>4 a'8. a'16 c''8 a' g'( f') | % 5
+  <f' a'>8 a' a'8. a'16 c''8 a' g' f' | % 6
   <d' g'>4 <d' f'>2. | % 7
-  r4 <g' d''>4 <f' c''> <f' a'>8 a' | % 8
+  r4 <g' d''>4 <f' c''> <f' a'>8. a'16 | % 8
   <c'' e''>8 d'' d'' d'' c'' a' a'4~ | % 9
   <fis' a'>2. c'8 d' | % 10
   a'8 a' f'!4 d' bes | % 11
