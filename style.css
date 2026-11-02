@@ -1,1 +1,14 @@
 *{box-sizing:border-box}body{margin:0;padding:1rem;background:#f5f7f9;color:#172b38;font:1rem/1.4 system-ui,sans-serif}main{max-width:54rem;margin:auto}h1{font-size:clamp(1.6rem,4vw,2.2rem);margin:0 0 .2rem}h2{font-size:1.2rem;margin:0 0 .4rem}h3{font-size:1rem;margin:.7rem 0 .2rem}p{margin:.35rem 0 .65rem}.subtitle,.details{color:#4d606c}.subtitle{margin:.25rem 0 .75rem}article,.panel{margin:.65rem 0;padding:.85rem 1rem;background:white;border:1px solid #dce3e8;border-radius:.6rem}a{color:#175c53;text-underline-offset:.15em}a:hover{color:#10473f}a:focus-visible{outline:2px solid #172b38;outline-offset:3px}.button{display:inline-block;margin:.15rem .3rem .15rem 0;padding:.38rem .65rem;border-radius:.35rem;background:#175c53;color:white;font-weight:600;text-decoration:none}.button:hover{background:#10473f;color:white}audio{display:block;width:100%;height:36px;margin:.25rem 0 .5rem}nav{margin-bottom:.65rem}.editing{border-top:1px solid #dce3e8;margin-top:.8rem;padding-top:.5rem}.editing h2{font-size:1rem;margin-bottom:.2rem}section section{margin-top:.6rem}.track-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.5rem}.track{min-width:0}.track h3{margin:0 0 .2rem}.lyrics{white-space:pre-line;font-size:1.05rem;line-height:1.5}.lyric-section{margin:.7rem 0}.lyric-section h2{font-size:1rem;color:#4d606c;margin:0 0 .2rem}@media print{body{background:white;padding:0}.panel{border:0;padding:0}nav,.no-print{display:none}.lyric-section{break-inside:avoid}}
+/* Compact song directory and rehearsal controls. */
+body{padding:1rem}
+main{max-width:54rem}
+.song-row{margin:0;padding:.65rem 0;border:0;border-bottom:1px solid #dce3e8;border-radius:0;background:transparent}
+.song-row h2{margin:0;font-size:1.1rem}
+.file-links{display:flex;flex-wrap:wrap;gap:.4rem 1rem;margin:.6rem 0 1rem}
+.audio-row{display:grid;grid-template-columns:9rem minmax(0,1fr) 3rem;align-items:center;gap:.65rem;padding:.4rem 0;border-bottom:1px solid #dce3e8}
+.audio-row h3{margin:0;font-size:1rem}
+.audio-row audio{margin:0;height:36px}
+.audio-row>a{padding:.4rem 0;text-align:right}
+.arrangement-details{margin-top:1rem;color:#4d606c}
+summary{cursor:pointer;padding:.4rem 0}
+@media(max-width:480px){body{padding:.75rem}.audio-row{grid-template-columns:minmax(0,1fr) 3rem;gap:.2rem .65rem}.audio-row h3{grid-column:1/-1}.audio-row audio{grid-column:1}.audio-row>a{grid-column:2}}
