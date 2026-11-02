@@ -11,4 +11,9 @@ main{max-width:54rem}
 .audio-row>a{padding:.4rem 0;text-align:right}
 .arrangement-details{margin-top:1rem;color:#4d606c}
 summary{cursor:pointer;padding:.4rem 0}
+.score{margin-top:1rem}
+.score .file-links{margin:.35rem 0 .65rem}
+.score-pages{display:grid;gap:.75rem}
+.score-page{display:block;width:100%;height:auto;background:white;box-shadow:0 1px 4px #172b3826}
+@media print{.score-page{box-shadow:none;break-after:page}.score-page:last-child{break-after:auto}}
 @media(max-width:480px){body{padding:.75rem}.audio-row{grid-template-columns:minmax(0,1fr) 3rem;gap:.2rem .65rem}.audio-row h3{grid-column:1/-1}.audio-row audio{grid-column:1}.audio-row>a{grid-column:2}}
