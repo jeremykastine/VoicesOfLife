@@ -8,4 +8,6 @@
 
 - [This Christmas](this-christmas/): soprano, alto, and baritone with piano; mostly unison with brief harmony. [PDF score](this-christmas/this-christmas-sab.pdf) · [MP3 rehearsal playback](this-christmas/this-christmas-sab.mp3) · [LilyPond source — for editing only, not rehearsal](this-christmas/this-christmas-sab.ly).
 
+- [The Little Drummer Boy](the-little-drummer-boy/): mostly unison/octaves with brief SAB harmony; piano adapted closely from the supplied ten-page score. PDF, full rehearsal MP3, three isolated saxophone-and-piano practice MP3s, and editable LilyPond source.
+
 Open [index.html](index.html) for the choir's song list. Rehearsal audio is synthesized playback, without sung words.
