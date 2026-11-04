@@ -1,5 +1,6 @@
 \version "2.24.3"
 \pointAndClickOff
+% Piano harmony reviewed 2026-11-04; see PIANO_REVIEW.md for editorial changes.
 #(set-global-staff-size 16)
 \paper { #(set-paper-size "letter") top-margin = 12\mm bottom-margin = 12\mm left-margin = 14\mm right-margin = 12\mm ragged-last-bottom = ##f }
 \header { title = "THE LITTLE DRUMMER BOY" subtitle = "Mostly unison with occasional SAB harmony; piano"
@@ -512,36 +513,36 @@ r2 e'8 d'8 e'4 | % 31
 <a d'>1 | % 33
 <d' g'>2 r8 d'8 cis'8 a8 | % 34
 a2 d16 e16 a,8 b16 a8. | % 35
-r4 <a c' e'>2 <b c' fis'>4 | % 36
-<cis' e' g'>2 <cis' e' g'>4 <cis' e' g'>4 | % 37
-<cis' e' a'>8 <b d' g'>8 <cis' e' a'>4 <cis' e'>2~ | % 38
-<cis' e'>4. fis'8~ fis'4 fis'4 | % 39
-g'8 fis'8 <d' g'>4 <cis' fis'>4 <fis, b e'>4 | % 40
-<a c' e'>4 <cis' e' g'>4 <a c' e'>4. <a c' e'>8 | % 41
-<b d' g'>8 <a c' fis'>8 <b d' g'>4 << { e'4 d'4 } \\ { a2~ } >> | % 42
-<< { e'4 g'4 e'4. e'8 } \\ { a1 } >> | % 43
+r4 <a d' fis'>2 <b d' g'>4 | % 36
+<a d' fis'>2 <a d' fis'>4 <a d' fis'>4 | % 37
+<b d' g'>8 <a d' fis'>8 <b d' g'>4 <a d' fis'>2~ | % 38
+<a d' fis'>4. fis'8~ fis'4 fis'4 | % 39
+g'8 fis'8 <d' g'>4 <cis' fis'>4 <g b e'>4 | % 40
+<a d' fis'>4 <a d' fis'>4 <a d' fis'>4. <a d' fis'>8 | % 41
+<b d' g'>8 <a d' fis'>8 <b d' g'>4 <a d' fis'>2~ | % 42
+<a d' fis'>2 <g cis' e'>2 | % 43
 g'8 fis'8 <g a, d'>4 <a b d'>4 <b d' fis'>4 | % 44
-<e' g' b'>4 <e' g' b'>4 <e' g' b'>4 <fis' a' cis''>4 | % 45
+<a cis' e'>4 <a cis' e'>4 <a cis' e'>4 <b d' fis'>4 | % 45
 <e' g' b'>8 <d' fis' a'>8 <cis' e' g'>4 << { r4 a'4 } \\ { <a cis' e'>2~ } >> | % 46
 << { g'8 fis'8 e'4 d'2 } \\ { <a cis'>1~ } >> | % 47
 r4 <b d'>4 <cis' e'>4 <d' fis'>4 | % 48
 <e' g'>4 <e' g'>4 <e' g'>4 <fis' a'>4 | % 49
 <a' c''>8 <g' b'>8 <fis' a'>4 <b d' g'>2 | % 50
-<g' b'>8 <b' cis''>8 <a' d''>4 <fis' a'>2 | % 51
+<g' b'>8 <fis' a'>8 <e' g'>4 <d' fis'>2 | % 51
 <d' fis'>8 <e' g'>8 <fis' a'>4 <cis' e'>2 | % 52
 << { a'8 g'8 fis'4 e'2~ } \\ { cis'1~ } >> | % 53
 \time 2/4
 <a cis' e'>2 | % 54
 \time 4/4
-<a c' e' a'>2. <b c' fis'>4 | % 55
-<cis' fis' a'>4 <cis' fis' a'>4 <cis' fis' a'>4. <cis' fis' a'>8 | % 56
+<a d' fis' a'>2. <b e' g'>4 | % 55
+<a d' fis'>4 <a d' fis'>4 <a d' fis'>4. <a d' fis'>8 | % 56
 \time 2/4
 <bes d' g'>8 <a cis' fis'>8 <bes d' g'>4 | % 57
 \time 4/4
 <a d' fis'>1~ | % 58
 <a d' fis'>2 <a b e'>8 d'8 <a b e'>4 | % 59
-<a c' e'>1~ | % 60
-<a c' e'>2 <g' a' e''>8 d''8 <g' a' e''>4~ | % 61
+<a d' fis'>1~ | % 60
+<a d' fis'>2 <g' a' e''>8 d''8 <g' a' e''>4~ | % 61
 <g' a' e''>4 <fis' a' d''>2.~ | % 62
 <fis' a' d''>4 e'4 g'4 b'4 | % 63
 \key e \major
@@ -559,20 +560,20 @@ fis''4 <b' e''>8 <b' e''>8~ <b' e''>4 <a' b' fis''>4 | % 68
 << { <e'' gis''>1~ } \\ { b'4 b'4 b'4 b'4 } >> | % 75
 << { <e'' gis''>4 <e'' gis''>4 <fis'' a''>4 <gis'' b''>4 } \\ { b'4 fis'4 gis'4 a'4 } >> | % 76
 <b' gis'' cis'''>4 <b' gis'' cis'''>4 <b' gis'' cis'''>4 <cis'' a'' dis'''>4 | % 77
-<d'' e'' a'' c'''>8 <cis'' gis'' b''>8 <b' fis'' a''>4 <a' cis'' e'' a''>2 | % 78
-<cis'' gis'' b''>8 <dis'' ais'' cis'''>8 <e'' b'' dis'''>4 <cis'' e'' a''>2~ | % 79
+<cis'' e'' a'' cis'''>8 <b' e'' gis'' b''>8 <a' dis'' fis'' a''>4 <a' cis'' e'' a''>2 | % 78
+<cis'' gis'' b''>8 <dis'' fis'' b''>8 <e'' b'' e'''>4 <cis'' e'' a''>2~ | % 79
 \time 2/4
 <cis'' e'' a''>8 <b' dis'' gis''>8 <a' cis'' fis''>4 | % 80
 \time 4/4
-<< { <e'' fis''>1~ } \\ { <fis' b'>4 b'8 b'8 b'4 b'4 } >> | % 81
-<< { <e'' fis''>1 } \\ { b'4 b'8 b'8 b'4 b'4 } >> | % 82
-<gis' b' e''>2. <fis' a' fis''>4 | % 83
+<< { <dis'' fis''>1~ } \\ { <fis' b'>4 b'8 b'8 b'4 b'4 } >> | % 81
+<< { <dis'' fis''>1 } \\ { b'4 b'8 b'8 b'4 b'4 } >> | % 82
+<gis' b' e''>2. <fis' b' fis''>4 | % 83
 <gis' b' gis''>2 <gis' b' gis''>4 <gis' b' gis''>4 | % 84
 \time 2/4
 <gis' b' a''>8 <gis' b' gis''>8 <gis' b' a''>4 | % 85
 \time 4/4
 <gis' b' e'' gis''>1~ | % 86
-<gis' b' e'' gis''>2 <fis' e'' fis''>8 <e' dis'' e''>8 <gis' e'' fis''>4 | % 87
+<gis' b' e'' gis''>2 <b e'' fis''>8 <b dis'' e''>8 <b dis'' fis''>4 | % 87
 <e' gis' b' e''>1~ | % 88
 <e' gis' b' e''>2 fis'8 e'8 fis'4 | % 89
 <b e'>1~ | % 90
@@ -599,9 +600,9 @@ fis'1 | % 109
 R2 | % 110
 \time 4/4
 e'2. <dis' b'>4 | % 111
-<d' gis'>4 gis'4 <cis' gis'>4. gis'8 | % 112
+<b e' gis'>4 gis'4 <b e' gis'>4. gis'8 | % 112
 \time 2/4
-<d' a'>8 gis'8 a'4 | % 113
+<cis' e' a'>8 <b e' gis'>8 <cis' e' a'>4 | % 113
 \time 4/4
 <b gis'>1~ | % 114
 <b gis'>2 <e' gis'>8 fis'8 <e' gis'>4 | % 115
@@ -620,8 +621,8 @@ b2 a8 b8 e16 fis8. | % 127
 b1~ | % 128
 b4. fis'8 e'8 b8 gis8 a8 | % 129
 b1~ | % 130
-b2 a8 b8 e16 fis8.~ | % 131
-fis1\fermata | % 132
+b2 a8 b8 e16 dis8. | % 131
+<gis b e'>1\fermata | % 132
 \bar "|." }
 pianoLH = {
 \key d \major
@@ -638,11 +639,11 @@ pianoLH = {
 <d, a, d>4 r8 <d, a, d>8~ <d, a, d>2 | % 9
 <d, a, d>4 r8 <d, a, d>8~ <d, a, d>2 | % 10
 <d, a, d>4 r8 <d, a, d>8~ <d, a, d>2 | % 11
-<d, a, d>4 r8 <d, a, d>8~ <d, a, d>2 | % 12
+<a, e a>4 r8 <a, e a>8~ <a, e a>2 | % 12
 <d, a, d>4 r8 <d, a, d>8~ <d, a, d>2 | % 13
 <d, a, d>4 r8 <d, a, d>8~ <d, a, d>2 | % 14
 <d, a, d>4 r8 <d, a, d>8~ <d, a, d>2 | % 15
-<d, a, d>4 r8 <d, a, d>8~ <d, a, d>2 | % 16
+<a, e a>4 r8 <a, e a>8~ <a, e a>2 | % 16
 <d, a, d>4 r8 <d, a, d>8~ <d, a, d>2 | % 17
 <d, a, d>4 r8 <d, a, d>8~ <d, a, d>2 | % 18
 <d, a, d>4 r8 <d, a, d>8~ <d, a, d>2 | % 19
@@ -664,17 +665,17 @@ pianoLH = {
 <d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 33
 <d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 34
 <d, a, d>4 r8 <d, a, d>8~ <d, a, d>2 | % 35
-<d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 36
+<d, a, d>4. <d, a, d>8~ <d, a, d>4 g,4 | % 36
 <d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 37
 <d, a, d>4 a,4 <d, a, d>2 | % 38
 <d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 39
-<d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 40
+<d, a, d>4. <d, a, d>8~ <d, a, d>4 g,4 | % 40
 <d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 41
 <d, a, d>4 a,4 <d, a, d>2 | % 42
-<d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 43
+<d, a, d>2 <a, e>2 | % 43
 <d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 44
-<d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 45
-<d, a, d>4 d,4 <a, e>2 | % 46
+<a, e a>4. <a, e a>8~ <a, e a>4 b,4 | % 45
+<e, b, e>4 d,4 <a, e>2 | % 46
 <a, e>4. <a, e>8~ <a, e>2 | % 47
 <d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 48
 <d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 49
@@ -686,14 +687,14 @@ pianoLH = {
 <a, e>4. a,8 | % 54
 \time 4/4
 <d, a, d>4. d,8~ d,4 e4 | % 55
-c4. c8~ c4 b,4 | % 56
+d4. d8~ d4 a,4 | % 56
 \time 2/4
 bes,4. bes,8 | % 57
 \time 4/4
 <d, a,>4. <d, a,>8~ <d, a,>2 | % 58
 <d, a,>4. a,8 d4 d4 | % 59
 <d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 60
-<d, a, d>4. <d, a, d>8~ <d, a, d>2 | % 61
+<d, a, d>2 <a, e>2 | % 61
 <d, a, d>4. <d, a, d>8~ <d, a, d>4 <d, a, d>4 | % 62
 <d, a, d>4 <d, a, d>4 <d, a, d>4 a,4 | % 63
 \key e \major
@@ -706,13 +707,13 @@ bes,4. bes,8 | % 57
 <e, b, e>4 <e, b, e>4 <e, b, e>2 | % 70
 <e, b, e>2 <e, b, e>4 e4 | % 71
 <e, b, e>2 <e, b, e>4 e4 | % 72
-<e, b, e>2 <e, b, e>4 e4 | % 73
-<e, b, e>4 <e, b, e>4 <e, b, e>2 | % 74
+<a, e a>2 <a, e a>4 <b, fis b>4 | % 73
+<a, e a>4 <b, fis b>4 <e, b, e>2 | % 74
 <e, b, e>2 <e, b, e>4 e4 | % 75
 <e, b, e>2 <e, b, e>4 e4 | % 76
-<e, b, e>2 <e, b, e>4 e4 | % 77
-<e, b, e>4 e,4 <a, e>2 | % 78
-<e, b, e>4 a,4 <e, b, e>4 <e, b, e>4 | % 79
+<cis gis>2 <cis gis>4 <b, fis>4 | % 77
+<a, e>4 <b, fis>4 <a, e>2 | % 78
+<cis gis>4 <b, fis>4 <a, e>2 | % 79
 \time 2/4
 <e, b, e>2 | % 80
 \time 4/4
@@ -724,7 +725,7 @@ bes,4. bes,8 | % 57
 <e, b, e>4 <e, b, e>4 | % 85
 \time 4/4
 <e, b, e>2 <e, b, e>4 e4 | % 86
-<e, b, e>2 <e, b, e>4 b,4 | % 87
+<e, b, e>2 <b, fis>4 <b, fis>4 | % 87
 <e, b, e>2 <e, b, e>4 e4 | % 88
 <e, b, e>2 <e, b, e>4 b,4 | % 89
 <e, b, e>4 e,4 <e, b, e>4 e,4 | % 90
@@ -768,20 +769,20 @@ e,4 r8 <e, b, e>8~ <e, b, e>2 | % 92
 <e, b, e>4 r8 <e, b, e>8~ <e, b, e>2 | % 124
 <e, b, e>4 r8 <e, b, e>8~ <e, b, e>2 | % 125
 <e, b, e>4 r8 <e, b, e>8~ <e, b, e>2 | % 126
-<e, b, e>4 r8 <e, b>8~ <e, b>2 | % 127
+<e, b, e>4 r8 <e, b,>8~ <e, b,>2 | % 127
 <e, b, e>4 r8 <e, b, e>8~ <e, b, e>2 | % 128
 <e, b, e>4 r8 <e, b, e>8~ <e, b, e>2 | % 129
 <e, b, e>4 r8 <e, b, e>8~ <e, b, e>2 | % 130
-<e, b, e>4 r8 <e, b>8~ <e, b>2 | % 131
-<e, b,>1\fermata | % 132
+<e, b, e>4 r8 <b, fis>8~ <b, fis>2 | % 131
+<e, b, e>1\fermata | % 132
 \bar "|." }
 words = \lyricmode {         Come they told me pa rum pa pum pum  a new born King to see pa rum pa pum pum  Our fin est gifts we bring pa rum pa pum pum  to lay be fore the King pa rum pa pum pum rum pa pum pum rum pa pum pum  so to hon or Him pa rum pa pum pum when _ we come    Lit tle ba by pa rum pa pum pum  I am a poor boy too pa rum pa pum pum  I have no gift to bring pa rum pa pum pum  that’s fit to give our King pa rum pa pum pum rum pa pum pum rum pa pum pum   Shall I play for you pa rum pa pum pum on _ my drum On _ my drum     I play my drum for Him          So to hon _ or Him  _         Mar y _ nod ded pa rum pa pum pum  The ox and lamb kept time pa rum pa pum pum  I played my drum for Him pa rum pa pum pum  I played my best for Him pa rum pa pum pum rum pa pum pum rum pa pum pum   Then He smiled at me pa rum pa pum pum me and my drum   When _ we come   me and my drum         }
 ensemble = <<
-\new Staff \with { instrumentName = "Soprano" shortInstrumentName = "S." midiInstrument = "alto sax" } { \clef treble \new Voice = "soprano" { \soprano } }
+\new Staff \with { instrumentName = "Soprano" shortInstrumentName = "S." midiInstrument = "clarinet" } { \clef treble \new Voice = "soprano" { \soprano } }
 \new Lyrics \lyricsto "soprano" { \words }
-\new Staff \with { instrumentName = "Alto" shortInstrumentName = "A." midiInstrument = "alto sax" } { \clef treble \new Voice = "alto" { \alto } }
+\new Staff \with { instrumentName = "Alto" shortInstrumentName = "A." midiInstrument = "clarinet" } { \clef treble \new Voice = "alto" { \alto } }
 \new Lyrics \lyricsto "alto" { \words }
-\new Staff \with { instrumentName = "Baritone" shortInstrumentName = "B." midiInstrument = "alto sax" } { \clef bass \new Voice = "baritone" { \baritone } }
+\new Staff \with { instrumentName = "Baritone" shortInstrumentName = "B." midiInstrument = "clarinet" } { \clef bass \new Voice = "baritone" { \baritone } }
 \new Lyrics \lyricsto "baritone" { \words }
 \new PianoStaff \with { instrumentName = "Piano" shortInstrumentName = "Pno." } <<
 \new Staff \with { midiInstrument = "acoustic grand" } { \pianoRH }

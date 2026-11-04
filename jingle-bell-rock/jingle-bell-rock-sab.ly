@@ -1,5 +1,6 @@
 \version "2.24.3"
 \pointAndClickOff
+% Piano harmony reviewed 2026-11-04; see PIANO_REVIEW.md for editorial changes.
 #(set-global-staff-size 16)
 \paper { #(set-paper-size "letter") top-margin = 12\mm bottom-margin = 12\mm left-margin = 14\mm right-margin = 12\mm ragged-last-bottom = ##f }
 \header { title = "JINGLE BELL ROCK" subtitle = "Soprano, Alto & Baritone with Piano" composer = "Words and music: Joe Beal & Jim Boothe" arranger = "SAB arrangement for Voices of Life" tagline = ##f }
@@ -238,8 +239,8 @@ c'2. r4 | % 71
 \bar "|." }
 pianoRH = {
 <c'' e''>8 <c'' e''>8 <c'' e''>4 <b' e''>8 <b' e''>8 <b' e''>4 | % 1
-e''8 g''8 <bes' b' d''>8 d''8 e''8 d''8 <g' c''>8 a'8 | % 2
-g'4 <fis'' g''>4 g'4 <fis'' g''>4 | % 3
+e''8 g''8 <g' b' d''>8 d''8 e''8 d''8 <g' c''>8 a'8 | % 2
+g'4 <b' d'' g''>4 g'4 <b' d'' g''>4 | % 3
 g'4 r4 r2 | % 4
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 5
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 6
@@ -248,7 +249,7 @@ g'4 r4 r2 | % 4
 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 9
 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 10
 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 11
-<ees' f' a'>8 <ees' f' a'>8 <ees' f' a'>4 <ees' f' a'>8 <ees' f' a'>8 <ees' f' a'>4 | % 12
+<b d' f'>8 <b d' f'>8 <b d' f'>4 <b d' f'>8 <b d' f'>8 <b d' f'>4 | % 12
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 13
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 14
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 | % 15
@@ -267,12 +268,12 @@ g'4 r4 r2 | % 4
 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 28
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 29
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 30
-<d' e' g'>8 <d' e' g'>8 <d' e' g'>4 <cis' f' g'>8 <cis' f' g'>8 <cis' f' g'>4 | % 31
+<b d' e' g'>8 <b d' e' g'>8 <b d' e' g'>4 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 | % 31
 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 | % 32
 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 | % 33
 <c' d' f'>8 <c' d' f'>8 <c' d' f'>4 <c' d' f'>8 <c' d' f'>8 <c' d' f'>4 | % 34
 <c' fis' a'>8 <c' fis' a'>8 <c' fis' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 35
-<c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 | % 36
+<c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 36
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 37
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 38
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 | % 39
@@ -280,7 +281,7 @@ g'4 r4 r2 | % 4
 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 41
 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 42
 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 43
-<ees' f' a'>8 <ees' f' a'>8 <ees' f' a'>4 <ees' f' a'>8 <ees' f' a'>8 <ees' f' a'>4 | % 44
+<b d' f'>8 <b d' f'>8 <b d' f'>4 <b d' f'>8 <b d' f'>8 <b d' f'>4 | % 44
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 45
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 46
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 | % 47
@@ -299,7 +300,7 @@ g'4 r4 r2 | % 4
 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 60
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 61
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 62
-<d' e' g'>8 <d' e' g'>8 <d' e' g'>4 <cis' f' g'>8 <cis' f' g'>8 <cis' f' g'>4 | % 63
+<b d' e' g'>8 <b d' e' g'>8 <b d' e' g'>4 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 | % 63
 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 | % 64
 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 | % 65
 <c' d' f'>8 <c' d' f'>8 <c' d' f'>4 <c' d' f'>8 <c' d' f'>8 <c' d' f'>4 | % 66
@@ -307,31 +308,31 @@ g'4 r4 r2 | % 4
 <c' fis' a'>8 <c' fis' a'>8 <c' fis' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 68
 <c' fis' a'>8 <c' fis' a'>8 <c' fis' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 69
 <c' e' g' c''>1~ | % 70
-<e' g' c''>2. r4 | % 71
+<c' e' g' c''>2. r4 | % 71
 \bar "|." }
 pianoLH = {
 c4 c'4 c4 c'4 | % 1
 c4 c'4 c4 c'4 | % 2
-b4 r4 a4 r4 | % 3
+g,4 r4 d4 r4 | % 3
 r8 <g, g>8 <f, f>4 <e, e>4 <d, d>4 | % 4
 c4 g4 c4 g4 | % 5
 c4 g4 c4 g4 | % 6
-c4 g4 cis4 aes4 | % 7
+c4 g4 cis4 g4 | % 7
 d4 a4 g,4 d4 | % 8
 d4 a4 g,4 d4 | % 9
 d4 a4 g,4 d4 | % 10
 d4 a4 g,4 d4 | % 11
-f,4 c4 f,4 c4 | % 12
+g,4 d4 g,4 d4 | % 12
 c4 g4 c4 g4 | % 13
 c4 g4 c4 g4 | % 14
-c4 g4 cis4 aes4 | % 15
+c4 g4 cis4 g4 | % 15
 d4 a4 g,4 d4 | % 16
 d4 a4 g,4 d4 | % 17
 d4 a4 g,4 d4 | % 18
 d4 a4 g,4 d4 | % 19
 c4 g4 c4 g4 | % 20
 f,4 c4 f,4 c4 | % 21
-fis,4 cis4 fis,4 cis4 | % 22
+fis,4 c4 fis,4 c4 | % 22
 c4 g4 c4 g4 | % 23
 c4 g4 c4 g4 | % 24
 a,4 e4 d4 a4 | % 25
@@ -345,25 +346,25 @@ a,4 e4 a,4 e4 | % 32
 f,4 c4 f,4 c4 | % 33
 f,4 c4 f,4 c4 | % 34
 d4 a4 g,4 d4 | % 35
-c4 g4 d4 a4 | % 36
+c4 g4 g,4 d4 | % 36
 c4 g4 c4 g4 | % 37
 c4 g4 c4 g4 | % 38
-c4 g4 cis4 aes4 | % 39
+c4 g4 cis4 g4 | % 39
 d4 a4 g,4 d4 | % 40
 d4 a4 g,4 d4 | % 41
 d4 a4 g,4 d4 | % 42
 d4 a4 g,4 d4 | % 43
-f,4 c4 f,4 c4 | % 44
+g,4 d4 g,4 d4 | % 44
 c4 g4 c4 g4 | % 45
 c4 g4 c4 g4 | % 46
-c4 g4 cis4 aes4 | % 47
+c4 g4 cis4 g4 | % 47
 d4 a4 g,4 d4 | % 48
 d4 a4 g,4 d4 | % 49
 d4 a4 g,4 d4 | % 50
 d4 a4 g,4 d4 | % 51
 c4 g4 c4 g4 | % 52
 f,4 c4 f,4 c4 | % 53
-fis,4 cis4 fis,4 cis4 | % 54
+fis,4 c4 fis,4 c4 | % 54
 c4 g4 c4 g4 | % 55
 c4 g4 c4 g4 | % 56
 a,4 e4 d4 a4 | % 57
@@ -379,18 +380,18 @@ f,4 c4 f,4 c4 | % 66
 d4 a4 g,4 d4 | % 67
 d4 a4 g,4 d4 | % 68
 d4 a4 g,4 d4 | % 69
-r8 g8 f4 e4 <b, fis>4 | % 70
-<c e>4 e,8 a,,8~ a,,4 r4 | % 71
+c2 g,2 | % 70
+<c, e, g, c>2. r4 | % 71
 \bar "|." }
 words = \lyricmode {     Jin -- gle bell jin -- gle bell jin -- gle bell rock jin -- gle bell swing and jin -- gle bells ring Snow -- in and blow -- in up bush -- els of fun now the jin -- gle hop has be -- gun Jin -- gle bell jin -- gle bell jin -- gle bell rock jin -- gle bells chime in jin -- gle bell time Danc -- in and pranc -- in in Jin -- gle bell Square in the fros -- ty air What a bright _ time it’s the right _ time to rock the night a -- way Jin -- gle bell _ time is a swell time to go glid -- in in a one horse sleigh Gid -- dy -- ap jin -- gle horse pick up your feet jin -- gle a round the clock Mix and min -- gle in a jin -- glin beat _ that’s the jin -- gle bell rock Jin -- gle bell jin -- gle bell jin -- gle bell rock jin -- gle bell swing and jin -- gle bells ring Snow -- in and blow -- in up bush -- els of fun now the jin -- gle hop has be -- gun Jin -- gle bell jin -- gle bell jin -- gle bell rock jin -- gle bells chime in jin -- gle bell time Danc -- in and pranc -- in in Jin -- gle bell Square in the fros -- ty air What a bright _ time it’s the right _ time to rock the night a -- way Jin -- gle bell _ time is a swell time to go glid -- in in a one horse sleigh Gid -- dy -- ap jin -- gle horse pick up your feet jin -- gle a round the clock Mix and min -- gle in a jin -- glin beat _ that’s the jin -- gle bell that’s the jin -- gle bell that’s the jin -- gle bell rock  }
-changes = \chordmode { c1 | c1 | c1 | c1 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | f1:7.5- | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:7 g2:7 | c2 c2:7 | f1 | fis1:dim | c1 | c1 | a2:m7 d2:7 | a2:m7 d2:7 | g2:7 d2:m7 | g1:7 | c1 | c1 | e2:m7.5- a2:7.5+ | a1:7 | f1 | f1:m6 | d2:7 g2:7 | c4 cis4:dim d4:m7 g4:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | f1:7.5- | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:7 g2:7 | c2 c2:7 | f1 | fis1:dim | c1 | c1 | a2:m7 d2:7 | a2:m7 d2:7 | g2:7 d2:m7 | g1:7 | c1 | c1 | e2:m7.5- a2:7.5+ | a1:7 | f1 | f1:m6 | d2:7 g2:7 | d2:7 g2:7 | d2:7 g2:7 | f4 c4 d4:m7 b4 | c1 }
+changes = \chordmode { c1 | c1 | g1 | g1:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | g1:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:7 g2:7 | c2 c2:7 | f1 | fis1:dim | c1 | c1 | a2:m7 d2:7 | a2:m7 d2:7 | g2:7 d2:m7 | g1:7 | c1 | c1 | e2:m7 a2:7 | a1:7 | f1 | f1:m6 | d2:7 g2:7 | c2 g2:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | g1:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:7 g2:7 | c2 c2:7 | f1 | fis1:dim | c1 | c1 | a2:m7 d2:7 | a2:m7 d2:7 | g2:7 d2:m7 | g1:7 | c1 | c1 | e2:m7 a2:7 | a1:7 | f1 | f1:m6 | d2:7 g2:7 | d2:7 g2:7 | d2:7 g2:7 | c2 c2/g | c1 }
 ensemble = <<
 \new ChordNames { \changes }
-\new Staff \with { instrumentName = "Soprano" shortInstrumentName = "S." midiInstrument = "alto sax" } { \clef treble \global \new Voice = "soprano" { \soprano } }
+\new Staff \with { instrumentName = "Soprano" shortInstrumentName = "S." midiInstrument = "clarinet" } { \clef treble \global \new Voice = "soprano" { \soprano } }
 \new Lyrics \lyricsto "soprano" { \words }
-\new Staff \with { instrumentName = "Alto" shortInstrumentName = "A." midiInstrument = "alto sax" } { \clef treble \global \new Voice = "alto" { \alto } }
+\new Staff \with { instrumentName = "Alto" shortInstrumentName = "A." midiInstrument = "clarinet" } { \clef treble \global \new Voice = "alto" { \alto } }
 \new Lyrics \lyricsto "alto" { \words }
-\new Staff \with { instrumentName = "Baritone" shortInstrumentName = "B." midiInstrument = "alto sax" } { \clef bass \global \new Voice = "baritone" { \baritone } }
+\new Staff \with { instrumentName = "Baritone" shortInstrumentName = "B." midiInstrument = "clarinet" } { \clef bass \global \new Voice = "baritone" { \baritone } }
 \new Lyrics \lyricsto "baritone" { \words }
 \new PianoStaff \with { instrumentName = "Piano" shortInstrumentName = "Pno." } << \new Staff \with { midiInstrument = "acoustic grand" } { \global \pianoRH } \new Staff \with { midiInstrument = "acoustic grand" } { \clef bass \global \pianoLH } >>
 >>

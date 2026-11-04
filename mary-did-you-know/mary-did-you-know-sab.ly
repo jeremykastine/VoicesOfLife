@@ -1,5 +1,6 @@
 \version "2.24.3"
 \pointAndClickOff
+% Piano harmony reviewed 2026-11-04; see PIANO_REVIEW.md for editorial changes.
 % Mary, Did You Know - SAB with piano, from the supplied score screenshots.
 % Editorial arrangement: simplified melismas and approximate accompaniment.
 % Original Eb minor harmony and syncopated piano elements are retained.
@@ -186,8 +187,8 @@ pianoRH = {
   << { \voiceOne bes'8 bes'16 des''16~ des''16 ees''8 ees''16~ ees''4 r8 bes'16 ces''16~ } \\ { \voiceTwo bes8 des'16 ges'16 bes8 des'16 f'16 bes8 ees'16 ges'16~ ges'8 ees'8 } >> \oneVoice | % 35
   << { \voiceOne ces''8 bes'16 aes'16~ aes'8. ges'16 aes'16 bes'8. r8 ges'16 aes'16 } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 ces'8 ees'16 aes'16~ aes'8 ees'8 } >> \oneVoice | % 36
   << { \voiceOne bes'4 r4 <d' f' bes'>2 } \\ { \voiceTwo bes8 d'16 f'16~ f'8 d'8 bes8 d'16 f'16~ f'8 d'8 } >> \oneVoice | % 37
-  << { \voiceOne des'8 bes16 des'16~ des'16 ees'8 des'16~ des'16 bes16 ees'16 ges'16 d'16 bes16 bes'16 d'16 } \\ { \voiceTwo bes8 ees'16 ges'16~ ges'8 ees'8 aes8 des'16 f'16~ f'8 des'8 } >> \oneVoice | % 38
-  << { \voiceOne r8 ees'16 ges'16~ ges'16 ees'8 ges'16~ ges'8 des'16 ees'16~ ees'16 ges'8 des'16~ } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 a8 c'16 eeses'16 bes8 d'16 aes'16 } >> \oneVoice | % 39
+  << { \voiceOne r8 ees'16 ges'16~ ges'16 ees'8 ges'16~ ges'8 bes16 ees'16~ ees'16 ges'8 bes16~ } \\ { \voiceTwo bes8 ees'16 ges'16~ ges'8 ees'8 bes8 ees'16 ges'16~ ges'8 ees'8 } >> \oneVoice | % 38
+  << { \voiceOne bes8 ees'16 ges'16~ ges'16 ees'8 ges'16 f'8 f'16 d'16~ d'16 f'8 d'16 } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 bes8 d'16 f'16~ f'8 aes'8 } >> \oneVoice | % 39
   <bes ees' ges' bes'>1\fermata | % 40
 }
 pianoLH = {
@@ -228,8 +229,8 @@ pianoLH = {
   << { \voiceOne r16 des8. c8 c8~ c16 bes8. bes8 bes8 } \\ { \voiceTwo ges,4 f,4 ees2 } >> \oneVoice | % 35
   << { \voiceOne r16 ees8. ees8 ees8~ ees16 ees8. ees8 ees8 } \\ { \voiceTwo aes,2 aes,2 } >> \oneVoice | % 36
   << { \voiceOne r16 f8. f8 f8~ f16 f8. f8 f8 } \\ { \voiceTwo bes,2 bes,2 } >> \oneVoice | % 37
-  << { \voiceOne r16 bes8. bes8 bes8~ bes16 aes8. aes8 aes8 } \\ { \voiceTwo ees2 des2 } >> \oneVoice | % 38
-  << { \voiceOne r16 ees8. ees8 ees8~ ees16 f8. c8 c8 } \\ { \voiceTwo aes,2 bes,4 f,4 } >> \oneVoice | % 39
+  << { \voiceOne r16 bes8. bes8 bes8~ bes16 bes8. bes8 bes8 } \\ { \voiceTwo ees2 ees2 } >> \oneVoice | % 38
+  << { \voiceOne r16 ees8. ees8 ees8~ ees16 f8. f8 f8 } \\ { \voiceTwo aes,2 bes,2 } >> \oneVoice | % 39
   <ees, ees bes>1\fermata | % 40
 }
 harmonies = \chordmode {
@@ -270,8 +271,8 @@ harmonies = \chordmode {
   ges4 bes4:m/f ees2:m | % 35
   aes2:m aes2:m | % 36
   bes2 bes2 | % 37
-  ees2:m des2 | % 38
-  aes2:m ges4:dim7/bes bes4:7/f | % 39
+  ees1:m | % 38
+  aes2:m7 bes2:7 | % 39
   ees1:m | % 40
 }
 global = { \key ees \minor \time 4/4 \tempo "Gently, with a flowing pulse" 4 = 55
@@ -363,12 +364,12 @@ great I Am. __
 ensemble = <<
  \new ChordNames \with { chordChanges = ##t } { \harmonies }
  \new ChoirStaff <<
-  \new Staff = "Soprano" \with { instrumentName = "Soprano" shortInstrumentName = "S." midiInstrument = "choir aahs" }
+  \new Staff = "Soprano" \with { instrumentName = "Soprano" shortInstrumentName = "S." midiInstrument = "clarinet" }
    << \new NullVoice { \global } \new Voice = "melody" { \soprano } >>
   \new Lyrics \with { \override LyricText.font-size = #-0.5 } \lyricsto "melody" { \verseText }
-  \new Staff = "Alto" \with { instrumentName = "Alto" shortInstrumentName = "A." midiInstrument = "choir aahs" }
+  \new Staff = "Alto" \with { instrumentName = "Alto" shortInstrumentName = "A." midiInstrument = "clarinet" }
    { \clef treble \key ees \minor \alto }
-  \new Staff = "Baritone" \with { instrumentName = "Baritone" shortInstrumentName = "Bar." midiInstrument = "choir aahs" }
+  \new Staff = "Baritone" \with { instrumentName = "Baritone" shortInstrumentName = "Bar." midiInstrument = "clarinet" }
    { \clef bass \key ees \minor \baritone }
  >>
  \new PianoStaff \with { instrumentName = "Piano" shortInstrumentName = "Pno." midiInstrument = "acoustic grand" } <<

@@ -3,3 +3,7 @@
 *.midi
 *.wav
 *.log
+
+# Python build cache
+__pycache__/
+*.pyc

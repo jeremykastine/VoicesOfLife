@@ -1,13 +1,16 @@
 # Voices of Life
 
-## Christmas Songs — Christmas 2026
+## Christmas Songs - Christmas 2026
 
-- [Hark! The Herald Angels Sing](hark-the-herald-angels-sing/): SAB with piano adapted from the supplied PTX / Ben Bram score. PDF, full rehearsal MP3, three isolated saxophone-and-piano practice MP3s, and LilyPond source for editing only.
+- [Feliz Navidad](feliz-navidad/)
+- [Hark! The Herald Angels Sing - Pentatonix version](hark-the-herald-angels-sing/)
+- [Jingle Bell Rock](jingle-bell-rock/)
+- [Mary, Did You Know](mary-did-you-know/)
+- [The Little Drummer Boy](the-little-drummer-boy/)
+- [This Christmas](this-christmas/)
 
-- [Mary, Did You Know](mary-did-you-know/): SAB with piano, simplified melody and accompaniment, full MP3 and isolated saxophone/piano practice tracks. Includes PDF score and LilyPond source for editing only.
+Each song has an SAB choir-and-piano PDF score, full rehearsal MP3, three practice MP3s with piano and one clarinet vocal line, and LilyPond source for editing. Audio appears first, followed by every score page inline and a PDF download link. Playback is synthesized, without sung words.
 
-- [This Christmas](this-christmas/): soprano, alto, and baritone with piano; mostly unison with brief harmony. [PDF score](this-christmas/this-christmas-sab.pdf) · [MP3 rehearsal playback](this-christmas/this-christmas-sab.mp3) · [LilyPond source — for editing only, not rehearsal](this-christmas/this-christmas-sab.ly).
+[Piano harmony review and measure-by-measure change notes](PIANO_REVIEW.md)
 
-- [The Little Drummer Boy](the-little-drummer-boy/): mostly unison/octaves with brief SAB harmony; piano adapted closely from the supplied ten-page score. PDF, full rehearsal MP3, three isolated saxophone-and-piano practice MP3s, and editable LilyPond source.
-
-Open [index.html](index.html) for the choir's song list. Rehearsal audio is synthesized playback, without sung words.
+To regenerate matching scores, audio, and inline pages, install LilyPond 2.24, FluidSynth, FluidR3 GM, ffmpeg, mido, and PyMuPDF, then run `python build_rehearsal_assets.py`. The score-assets GitHub workflow also rebuilds them after notation changes on main.

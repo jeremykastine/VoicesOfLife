@@ -1,5 +1,6 @@
 \version "2.24.3"
 \pointAndClickOff
+% Piano harmony reviewed 2026-11-04; see PIANO_REVIEW.md for editorial changes.
 #(set-global-staff-size 16)
 \paper { #(set-paper-size "letter") top-margin = 12\mm bottom-margin = 12\mm left-margin = 13\mm right-margin = 12\mm ragged-last-bottom = ##f
  system-system-spacing = #'((basic-distance . 18) (minimum-distance . 14) (padding . 3) (stretchability . 12)) }
@@ -512,17 +513,17 @@ pianoRH = {
 <b e' b'>4 <ais dis' fis'>4 <b dis' fis'>4. <fis b e'>8 | % 7
 <gis b dis'>4 <ais cis'>4 <fis b>4 r4 | % 8
 b'4 b'4 b'4 e'4 | % 9
-<cis' e' a'>4 <b e' gis'>4 <b e' gis'>4 <ais dis' fis'>8 r8 | % 10
+<cis' e' a'>4 <b e' gis'>4 <b e' gis'>4 <a dis' fis'>8 r8 | % 10
 b'4 b'4 b'4 <e' b' e''>8 dis''8 | % 11
 <e' a' cis''>4 <e' a'>4 dis''8 <dis' fis' b'>4. | % 12
-<a e' a' cis''>4 r8 <a e' a' cis''>8 <a e' a' cis''>4 <a e' gis' b'>4 | % 13
+<a e' a' cis''>4 r8 <a e' a' cis''>8 <a e' a' cis''>4 <b cis' eis' gis'>4 | % 13
 <cis' e' a'>4 <cis' eis' gis'>4 <cis' fis' a'>2 | % 14
-<a c' fis'>4 <fis b gis'>8 a'8 <b e' b'>4 r8 <gis b e'>8 | % 15
+<a b e'>4 <fis b gis'>8 a'8 <b e' b'>4 r8 <gis b e'>8 | % 15
 <b e' gis'>4 <b dis' a'>4 <cis' e' gis'>2 | % 16
 <e' a' cis''>4 r8 <e' a' cis''>8 <e' a' cis''>4 <e' gis' b'>4 | % 17
 <cis' fis' a'>4 <cis' eis' gis'>4 <cis' fis' a'>4. r8 | % 18
-<ais cis' fis'>4 <ais cis' gis'>8 a'8 <b e' b'>4. <gis b e'>8 | % 19
-<gis b e'>2 <ais dis' fis'>2 | % 20
+<b dis' fis'>4 <a b dis'>8 a'8 <b e' b'>4. <gis b e'>8 | % 19
+<gis b e'>2 <a dis' fis'>2 | % 20
 <g b d' e'>1 | % 21
 e''8 d''8 b'8 a'8 g'8 e'8 e'4 | % 22
 r4 b4 r8 cis'8 r4 | % 23
@@ -531,13 +532,13 @@ r4 b4 r8 cis'8 r4 | % 25
 e'2 cis'2 | % 26
 r4 b4 r8 cis'8 r4 | % 27
 <cis' e'>2 <cis' a'>2 | % 28
-<e' g' b'>2 <f' aes' c''>2 | % 29
-<dis' fis'>4 c'4 dis'8 fis'4 dis'8 | % 30
+<c' e' g'>2 <c' f' a'>2 | % 29
+<a cis' e'>4 <a b e'>4 <a cis' e'>8 <a b e'>4 <a cis' e'>8 | % 30
 e'4 b4 r8 cis'8 r4 | % 31
 e'2 cis'2 | % 32
 r4 <b e'>4 r8 <cis' fis'>8 r4 | % 33
 <e' gis'>2 <cis' fis'>2 | % 34
-r4 <cis' e' gis'>4 r8 <dis' fis' a'>8 r4 | % 35
+r4 <b e' gis'>4 r8 <a cis' fis'>8 r4 | % 35
 <b e' g'>2 <a cis' fis'>2 | % 36
 <a d' fis'>1 | % 37
 R1 | % 38
@@ -545,12 +546,12 @@ R1 | % 38
 <b e' gis'>1 | % 40
 <a cis' e'>1 | % 41
 <b dis' fis'>1 | % 42
-<b e' gis'>2 <b e' g'>2 | % 43
+<b e' gis'>2 <b e' gis'>2 | % 43
 <a cis' e'>1 | % 44
 <b dis' fis'>1 | % 45
 <b e' gis'>4 <b e' g'>2. | % 46
-<a d' fis'>2 <b e' gis'>2 | % 47
-<b e' g'>2 <b e' gis'>2 | % 48
+<a d' fis'>2 <a d' fis'>2 | % 47
+<b e' gis'>2 <b e' gis'>2 | % 48
 <a cis' e'>1 | % 49
 <b dis' fis'>1 | % 50
 <b e' gis'>2 <a cis' fis'>2 | % 51
@@ -587,7 +588,7 @@ r4 b4 r8 cis'8 r4 | % 81
 e'2 cis'2 | % 82
 r4 b4 r8 cis'8 r4 | % 83
 <b e' gis'>2 <a cis' fis'>2 | % 84
-<e' g' b'>2 <f' aes' c''>2 | % 85
+<c' e' g'>2 <c' f' a'>2 | % 85
 <dis' fis' a'>1 | % 86
 <b e' gis'>1 | % 87
 e'2 cis'2 | % 88
@@ -605,7 +606,7 @@ d''4 d''8 d''8~ d''8 d''4 d''8~ | % 99
 d''8 d''4 e''8~ e''2 | % 100
 <b e' g'>1 | % 101
 <b e' g'>1 | % 102
-<e' g' b'>2 <f' aes' c''>2 | % 103
+<c' e' g'>2 <d' f' bes'>2 | % 103
 <dis' fis' a'>1 | % 104
 d''8 d''8 d''4 b'4 b'8 b'8 | % 105
 a'4 a'8 a'8~ a'8 g'8 e'4 | % 106
@@ -637,25 +638,25 @@ r4 b4 r8 cis'8 r4 | % 131
 e'2 cis'2 | % 132
 r4 b4 r8 cis'8 r4 | % 133
 e'2 a'2 | % 134
-<e' g' b'>2 <f' aes' c''>2 | % 135
+<c' e' g'>2 <c' f' a'>2 | % 135
 <dis' fis' a'>1 | % 136
 e'4 b4 r8 cis'8 r4 | % 137
 e'2 cis'2 | % 138
 r4 b4 r8 cis'8 r4 | % 139
 e'2 a'2 | % 140
-<e' g' b'>2 <f' aes' c''>2 | % 141
+<c' e' g'>2 <c' f' a'>2 | % 141
 <dis' fis' a'>1 | % 142
 r4 b4 r8 cis'8 r4 | % 143
 e'2 cis'2 | % 144
 r4 b4 r8 cis'8 r4 | % 145
 e'2 a'2 | % 146
-<e' g' b'>2 <f' aes' c''>2 | % 147
+<c' e' g'>2 <c' f' a'>2 | % 147
 <dis' fis' a'>1 | % 148
 e'4 b4 r8 cis'8 r4 | % 149
 e'2 cis'2 | % 150
 r4 b4 r8 cis'8 r4 | % 151
 e'2 a'2 | % 152
-<e' g' b'>2 <f' aes' c''>2 | % 153
+<c' e' g'>2 <c' f' a'>2 | % 153
 <dis' fis' a'>1 | % 154
 <b e' gis'>1 | % 155
 <cis' e' g'>1 | % 156
@@ -695,13 +696,13 @@ e4 e4 r4 e4 | % 25
 r4 e4 r8 b,8 cis4 | % 26
 e4 e4 r4 e4 | % 27
 e4 e4 r4 e4 | % 28
-<a, g>2 <bes, aes>2 | % 29
-<b, a>4 b,4 cis8 e4 cis8 | % 30
+a,2 f,2 | % 29
+<b, fis>4 b,4 b,8 b,4 b,8 | % 30
 e4 e4 r4 e4 | % 31
 r4 e4 r8 b,8 cis4 | % 32
 e4 e4 r4 e4 | % 33
 r4 e4 r8 b,8 cis4 | % 34
-e4 e4 r4 e4 | % 35
+e4 e4 r4 fis4 | % 35
 r4 e4 r4 e4 | % 36
 b,4 b,4 r4 r8 b,8 | % 37
 b,4 a,4 g,4 d,4 | % 38
@@ -751,7 +752,7 @@ e4 e4 r4 e4 | % 81
 r4 e4 r8 b,8 cis4 | % 82
 e4 e4 r4 e4 | % 83
 e,2 fis,2 | % 84
-a,2 bes,2 | % 85
+a,2 f,2 | % 85
 b,4 b,4 r4 b,4 | % 86
 e,4 e,4 r4 e,4 | % 87
 r4 e4 r8 b,8 cis4 | % 88
@@ -801,25 +802,25 @@ e4 gis,4 a,4 ais,4 | % 131
 b,4 cis4 d4 dis4 | % 132
 e4 gis,4 a,4 ais,4 | % 133
 b,4 cis4 d4 dis4 | % 134
-a,2 bes,2 | % 135
+a,2 f,2 | % 135
 b,4 b,4 r4 b,4 | % 136
 e4 gis,4 a,4 ais,4 | % 137
 b,4 cis4 d4 dis4 | % 138
 e4 gis,4 a,4 ais,4 | % 139
 b,4 cis4 d4 dis4 | % 140
-a,2 bes,2 | % 141
+a,2 f,2 | % 141
 b,4 b,4 r4 b,4 | % 142
 e4 gis,4 a,4 ais,4 | % 143
 b,4 cis4 d4 dis4 | % 144
 e4 gis,4 a,4 ais,4 | % 145
 b,4 cis4 d4 dis4 | % 146
-a,2 bes,2 | % 147
+a,2 f,2 | % 147
 b,4 b,4 r4 b,4 | % 148
 e4 gis,4 a,4 ais,4 | % 149
 b,4 cis4 d4 dis4 | % 150
 e4 gis,4 a,4 ais,4 | % 151
 b,4 cis4 d4 dis4 | % 152
-a,2 bes,2 | % 153
+a,2 f,2 | % 153
 b,4 b,4 r4 b,4 | % 154
 e,4 e,4 r4 e,4 | % 155
 a,4 a,4 r4 a,4 | % 156
@@ -830,7 +831,7 @@ b,4 b,4 r4 b,4 | % 160
 b,2 e,2 | % 161
 e,4 e,4 r4 e,4 | % 162
 }
-harmony = \chordmode { e2 b2 | e4/gis e4 e4/b b4 | e4/gis gis4:m a4. a8:6 | e4/b b4 e2 | e2. b4 | cis4:m7 e4/b ais2:m7.5- | e4/gis fis4/ais b4. e8:sus2 | gis4:m/fis fis4:7 b2 | r2. e4/gis | b4:7/dis e4 e4/b b4 | r2. e4/gis | a4 fis4:m7 b4:sus4 b4 | a2. cis4:7 | fis4:m cis4 fis2:m | b4:sus4 b4:6/a e2/gis | e4/b b4:7 e2 | a2. e4/gis | fis4:m cis4/eis fis2:m/e | b4/dis b4:6/a e2/gis | e2/b b2:7 | e1:m/d | e1:m | e1 | e1 | e1 | e1 | e1 | e2 a2 | a2:9sus4 bes2:9sus4 | b1:9sus4 | e1 | e1 | e1 | e1 | e2 fis2:m | e2:m fis2:m | b1:m11 | r1 | e1 | e1 | a1 | b1 | e2/gis e2:maj7/gis | a1:2 | b1 | e4 e2.:m7 | b2:m d2:sus2 | e2:m e2:5 | a1 | b1 | e2/gis fis2/ais | b2. b4/dis | b2/fis fis2 | b1:5 | e1/b | e1/b | fis2:m/b e2/b | b1/fis | e1/b | e1/b | fis2:m/b e2/b | b1/fis | a1 | a2 cis2:7 | fis2:m cis2/eis | fis1:m/e | b2/a e4/a a4:6 | e2/gis e2 | e2/b b2:9sus4 | e2 fis4:m/e e4 | a1 | a2 cis2:m7 | fis2:m cis2/eis | fis1:m/e | b2 b2/a | e2/gis e2 | a1 | b1:9sus4 | e1 | e1 | e1 | e1 | e1 | e2 fis2:m7 | a2:9sus4 bes2:9sus4 | b1:9sus4 | e1 | e1 | e1 | e1 | e1:m | e1:m | b1:m11 | b1:m11 | e2/b b2:m7 | e2:m/b b2:m7 | e1:7 | e1:7 | e1:7 | e1:7 | e1:m | e1:m | a2:9sus4 bes2:9sus4 | b1:9sus4 | e1:7 | e1:7 | e1:m | e1:m | e1:7 | e1:7 | e2:m/b b2:m7 | e2:m/b e2:9sus4 | a1 | a2 cis2:m7 | fis2:m cis2/eis | fis1:m/e | b2/dis e4/b a4:6 | e2/gis e2 | b1:9sus4 | e2:9 e2 | a1/e | e2 gis2:m7 | fis2:m7 fis2:9sus4 | fis1:m7 | b2:sus4 e2/a | e1/gis | a1 | b1:9sus4 | e1 | e1 | e1 | e1 | e1 | e1 | a2:9sus4 bes2:9sus4 | b1:9sus4 | e1 | e1 | e1 | e1 | a2:9sus4 bes2:9sus4 | b1:9sus4 | e1 | e1 | e1 | e1 | a2:9sus4 bes2:9sus4 | b1:9sus4 | e1 | e1 | e1 | e1 | a2:9sus4 bes2:9sus4 | b1:9sus4 | e1 | a1:7 | a1:7 | b1:m11 | b1:m11 | b1:m11 | b2:m11 e2 | e1 }
+harmony = \chordmode { e2 b2 | e4/gis e4 e4/b b4 | e4/gis gis4:m a4. a8:6 | e4/b b4 e2 | e2. b4 | cis4:m7 e4/b ais2:m7.5- | e4/gis fis4/ais b4. e8:sus2 | gis4:m/fis fis4:7 b2 | r2. e4/gis | b4:7/dis e4 e4/b b4 | r2. e4/gis | a4 fis4:m7 b4:sus4 b4 | a2. cis4:7 | fis4:m cis4 fis2:m | b4:7sus4 b4:6/a e2/gis | e4/b b4:7 e2 | a2. e4/gis | fis4:m cis4/eis fis2:m/e | b4/dis b4:7/a e2/gis | e2/b b2:7 | e1:m/d | e1:m | e1 | e1 | e1 | e1 | e1 | e2 a2 | a2:m7 f2 | b1:7sus4 | e1 | e1 | e1 | e1 | e2 fis2:m | e2:m fis2:m | b1:m11 | r1 | e1 | e1 | a1 | b1 | e1/gis | a1:2 | b1 | e4 e2.:m7 | b2:m d2 | e1 | a1 | b1 | e2/gis fis2/ais | b2. b4/dis | b2/fis fis2:m | b1:5 | e1/b | e1/b | fis2:m/b e2/b | b1/fis | e1/b | e1/b | fis2:m/b e2/b | b1/fis | a1 | a2 cis2:7 | fis2:m cis2/eis | fis1:m/e | b2/a e4/a a4:6 | e2/gis e2 | e2/b b2:7 | e2 fis4:m/e e4 | a1 | a2 cis2:m7 | fis2:m cis2/eis | fis1:m/e | b2 b2/a | e2/gis e2 | a1 | b1:9sus4 | e1 | e1 | e1 | e1 | e1 | e2 fis2:m7 | a2:m7 f2 | b1:9sus4 | e1 | e1 | e1 | e1 | e1:m | e1:m | b1:m11 | b1:m11 | e2/b b2:m7 | e2:m/b b2:m7 | e1:7 | e1:7 | e1:7 | e1:7 | e1:m | e1:m | a2:m7 bes2 | b1:9sus4 | e1:7 | e1:7 | e1:m | e1:m | e1:7 | e1:7 | e2:m/b b2:m7 | e2:m/b e2:9sus4 | a1 | a2 cis2:m7 | fis2:m cis2/eis | fis1:m/e | b2/dis e4/b a4:6 | e2/gis e2 | b1:9sus4 | e2:9 e2 | a1/e | e2 gis2:m7 | fis2:m7 fis2:9sus4 | fis1:m7 | b2 e2/a | e1/gis | a1 | b1:9sus4 | e1 | e1 | e1 | e1 | e1 | e1 | a2:m7 f2 | b1:9sus4 | e1 | e1 | e1 | e1 | a2:m7 f2 | b1:9sus4 | e1 | e1 | e1 | e1 | a2:m7 f2 | b1:9sus4 | e1 | e1 | e1 | e1 | a2:m7 f2 | b1:9sus4 | e1 | a1:7 | a1:7 | b1:m11 | b1:m11 | b1:m11 | b2:m11 e2 | e1 }
 words = \lyricmode { \set ignoreMelismata = ##t Hark! The her -- ald an -- gels sing, _ Glo -- ry to the new -- born King! peace on earth and mer -- cy mild, _ God and sin -- ners rec -- on -- ciled. Joy -- ful, all ye na -- tions rise; _ join the tri -- umph _ of the skies; with an -- gel -- ic hosts pro -- claim, Christ is _ born in Beth -- le -- hem. Hark! The her -- ald an -- gels sing, Glo -- ry _ to the new -- born King. Hark! The her -- ald an -- gels sing. Hark! The her -- ald, Hark! The her -- ald, Hark! The her -- ald an -- gels sing. Woo, whoa: _ _ _ Hark! The her -- ald, Hark! The her -- ald, Hark! The her -- ald an -- gels!  Hark! The her -- ald an -- gels sing, _ Glo -- ry to the new -- born King. Sing it with me now: Peace _ on earth, and mer -- cy mild; _ _ _ God and sin -- ners rec -- on ciled. And let us cel -- e -- brate with: joy -- ful, all ye na -- tions rise; _ join the tri -- umph of the skies; _ with an gel -- ic hosts pro -- _ _ claim, Christ is _ born in Beth -- le hem. _ _ Hark! The her -- ald an -- gels _ _ sing, Glo -- ry _ to the new born King! Hark! The her -- ald, Hark! The her -- ald, Hark! The her -- ald an -- gels sing. Woo, whoa: _ _ _ Hark! The her -- ald, Hark! The her -- ald, Hark! The her -- ald _ _ an -- gels! _ Whoa, whoa, whoa, whoa. Hark! The her -- ald an _ _ gels sing _ Hark! The her -- ald an _ _ gels sing _ Glo -- ry to _ the new _ born King _ Glo -- ry to _ the new _ born King _ Je -- sus was born, in a man -- ger lay _ _ _ Je -- sus was born, in a man -- ger lay _ _ The Son of God _ is here _ to -- day _ Whoa, whoa, whoa, whoa, with an gel -- ic hosts pro -- _ claim _ Christ is _ born in Beth -- le -- _ _ hem _ _ Hark! The her -- ald an -- gels sing, Glo -- ry _ to the new born King! Hark! The her -- ald, Hark! The her -- ald, Hark! The her -- ald an -- gels sing. Woo, whoa: _ _ _ Hark! The her -- ald, Hark! The her -- ald an -- gels sing. Woo, whoa: _ _ Hark! The her -- ald, Hark! The her -- ald an -- gels sing. Woo, whoa: _ _ _ Hark! The her -- ald, Hark! The her -- ald an -- gels sing. Woo, whoa: _ _ her -- ald, yeah, _ Je -- sus, He was, He was, Je -- sus, He was born! _ }
 
 piano = \new PianoStaff \with { instrumentName = "Piano" shortInstrumentName = "Pno." } <<
@@ -840,10 +841,10 @@ piano = \new PianoStaff \with { instrumentName = "Piano" shortInstrumentName = "
 ensemble = <<
  \new ChordNames \with { chordChanges = ##t } { \harmony }
  \new ChoirStaff <<
-  \new Staff \with { instrumentName = "Soprano" shortInstrumentName = "S." midiInstrument = "choir aahs" } << \new NullVoice { \global } \new Voice = "mel" { \soprano } >>
+  \new Staff \with { instrumentName = "Soprano" shortInstrumentName = "S." midiInstrument = "clarinet" } << \new NullVoice { \global } \new Voice = "mel" { \soprano } >>
   \new Lyrics \with { \override LyricText.font-size = #-0.5 } \lyricsto "mel" { \words }
-  \new Staff \with { instrumentName = "Alto" shortInstrumentName = "A." midiInstrument = "choir aahs" } { \clef treble \key e \major \alto }
-  \new Staff \with { instrumentName = "Baritone" shortInstrumentName = "Bar." midiInstrument = "choir aahs" } { \clef bass \key e \major \baritone }
+  \new Staff \with { instrumentName = "Alto" shortInstrumentName = "A." midiInstrument = "clarinet" } { \clef treble \key e \major \alto }
+  \new Staff \with { instrumentName = "Baritone" shortInstrumentName = "Bar." midiInstrument = "clarinet" } { \clef bass \key e \major \baritone }
  >>
  \piano
 >>

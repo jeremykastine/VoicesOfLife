@@ -1,5 +1,6 @@
 \version "2.24.3"
 \pointAndClickOff
+% Piano harmony reviewed 2026-11-04; see PIANO_REVIEW.md for editorial changes.
 #(set-global-staff-size 16)
 \paper { #(set-paper-size "letter") top-margin = 12\mm bottom-margin = 12\mm left-margin = 14\mm right-margin = 12\mm ragged-last-bottom = ##f }
 \header { title = "FELIZ NAVIDAD" subtitle = "Soprano, Alto & Baritone with Piano" composer = "Music and lyrics: José Feliciano" arranger = "SAB arrangement for Voices of Life" tagline = ##f }
@@ -203,8 +204,8 @@ pianoRH = {
 <cis' fis' a'>4. <g' b'>8 <b' d''>4 <a' cis''>8 <fis' a'>8 | % 3
 <e' g'>4 g'8 fis'8 e'8 g'8 r8 d'8~ | % 4
 d'4. <fis' a'>8 <b' d''>4 <a' cis''>8 <b' d''>8 | % 5
-<e' g'>4. <g b'>8 <b d''>4 <b d''>8 <a cis''>8~ | % 6
-<a cis''>4. <a cis''>8 <g b'>4 <g b'>4 | % 7
+<e' g'>4. <g' b'>8 <b' d''>4 <b' d''>8 <a' cis''>8~ | % 6
+<a' cis''>4. <a' cis''>8 <g' b'>4 <g' b'>4 | % 7
 <a d'>4 r4 r2 | % 8
 r8 <d' g' b'>8 <d' g' b'>8 <d' g' b'>8 <d' g' b'>8 <d' g' b'>8 r8 <d' g' b'>8 | % 9
 r8 <cis' e' a'>8 <cis' e' a'>8 <cis' e' a'>8 <cis' e' a'>8 <cis' e' a'>8 r8 <cis' e' a'>8 | % 10
@@ -321,11 +322,11 @@ words = \lyricmode {        Fe -- liz Na -- vi -- dad Fe -- liz Na -- vi -- dad 
 changes = \chordmode { d1 | g1 | a1 | d1 | d1 | g1 | a1 | d1 | g1 | a1 | d1 | d1 | g1 | a1 | d1 | d1 | g1 | a1 | d1 | d1 | g1 | a1 | d1 | d1 | g1 | a1 | d1 | b1:m | g1 | a2 a2:7 | d1 | d1 | g1 | a1 | d1 | b1:m | g1 | a1 | d1 | d1 | g1 | a1 | d1 | d1 | g1 | a1 | d1 | d1 | g1 | a1 | d1 | d1 | g1 | a1 | d1 | d1 | d1 | d1 }
 ensemble = <<
 \new ChordNames { \changes }
-\new Staff \with { instrumentName = "Soprano" shortInstrumentName = "S." midiInstrument = "alto sax" } { \clef treble \global \new Voice = "soprano" { \soprano } }
+\new Staff \with { instrumentName = "Soprano" shortInstrumentName = "S." midiInstrument = "clarinet" } { \clef treble \global \new Voice = "soprano" { \soprano } }
 \new Lyrics \lyricsto "soprano" { \words }
-\new Staff \with { instrumentName = "Alto" shortInstrumentName = "A." midiInstrument = "alto sax" } { \clef treble \global \new Voice = "alto" { \alto } }
+\new Staff \with { instrumentName = "Alto" shortInstrumentName = "A." midiInstrument = "clarinet" } { \clef treble \global \new Voice = "alto" { \alto } }
 \new Lyrics \lyricsto "alto" { \words }
-\new Staff \with { instrumentName = "Baritone" shortInstrumentName = "B." midiInstrument = "alto sax" } { \clef bass \global \new Voice = "baritone" { \baritone } }
+\new Staff \with { instrumentName = "Baritone" shortInstrumentName = "B." midiInstrument = "clarinet" } { \clef bass \global \new Voice = "baritone" { \baritone } }
 \new Lyrics \lyricsto "baritone" { \words }
 \new PianoStaff \with { instrumentName = "Piano" shortInstrumentName = "Pno." } << \new Staff \with { midiInstrument = "acoustic grand" } { \global \pianoRH } \new Staff \with { midiInstrument = "acoustic grand" } { \clef bass \global \pianoLH } >>
 >>

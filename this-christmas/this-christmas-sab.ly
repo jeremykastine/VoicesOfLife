@@ -1,8 +1,9 @@
 \version "2.24.3"
 \pointAndClickOff
+% Piano harmony reviewed 2026-11-04; see PIANO_REVIEW.md for editorial changes.
 % THIS CHRISTMAS - soprano, alto, baritone and piano
 % Source: the four score screenshots supplied with this request.
-% Piano pitches, rests, ties, repetitions and meters follow the source.
+% Piano rhythm follows the source; the refrain turnaround has editorial conventional harmony.
 % Piano RH dotted eighth/sixteenth corrections: mm. 3, 4, 7, 8 beat 2; m. 10 beat 4.
 % Concert pitch. Baritone uses bass clef and sounds as written.
 % Compile: lilypond this-christmas-sab.ly
@@ -84,10 +85,10 @@ pianoRHBody = {
   <fis' a'>2. c'8 d' | % 10
   a'8 a' f'!4 d' bes | % 11
   g'8( a' f'4 d') f'8 g' | % 12
-  <e' g'>8 <e' a'>4. << { \voiceOne f'4 g'4 } \\ { \voiceTwo dis'2 } >> \oneVoice | % 13
+  <e' g'>8 <e' a'>4. <e' bes'>2 | % 13
   <d'! f'>4. f'8 <des' f'>8 g' f' g' | % 14
   g'8 a'( g' d'!) <c' f'>4 <c' f'>8( d') | % 15
-  g'4.( f'8~ f'2) | % 16
+  <bes d'>4.( <a ees'>8~ <a ees'>2) | % 16
 }
 pianoRHTurn = {
   f''8 d'' c'' a' bes' a' g'4 | % 1
@@ -137,10 +138,10 @@ pianoLHBody = {
   d2 fis | % 10
   g1 | % 11
   c1 | % 12
-  f2 b, | % 13
+  f2 c | % 13
   bes,2 ees | % 14
   a,2 d4 c | % 15
-  b,2. b,4 | % 16
+  g,4. f,8~ f,2 | % 16
 }
 pianoLHTurn = {
   bes,4 r4 r2 | % 1
@@ -246,7 +247,7 @@ altoBody = {
   g'8 a'4.~ a'4 g'4 | % 13
   d'4..\mf d'16 des'8 ees' des' ees' | % 14
   e'8 e'8~ e'2 d'4 | % 15
-  d'4.( dis'8~ dis'2) | % 16
+  d'4.( ees'8~ ees'2) | % 16
 }
 altoTurn = {
   R1 | % 1
@@ -346,13 +347,13 @@ harmonyBody = \chordmode {
   ees1:maj9 | % 7
   s2 d4:m7 c:7sus4 | % 8
   a1:m7 | % 9
-  s1 | % 10
+  d1:7 | % 10
   g1:m7 | % 11
   c1:7sus4 | % 12
-  f2:maj7 b:7.11+ | % 13
+  f2:maj7 c:7 | % 13
   bes2:maj7 ees:9 | % 14
   a2:m7 d:m7 | % 15
-  b2:m7.5- b:7.11+ | % 16
+  g4.:m7 f8:7 f2:7 | % 16
 }
 harmonyTurn = \chordmode {
   bes4:maj7 r2. | % 1
@@ -425,7 +426,7 @@ ensemble = <<
   \new ChoirStaff <<
     \new Staff = "sopStaff" \with {
       instrumentName = "Soprano" shortInstrumentName = "S."
-      midiInstrument = "choir aahs"
+      midiInstrument = "clarinet"
       midiMinimumVolume = #0.60 midiMaximumVolume = #0.85
     } <<
       \new NullVoice { \global }
@@ -435,12 +436,12 @@ ensemble = <<
     \new Lyrics \with { \override LyricText.font-size = #-0.5 } \lyricsto "sop" { \verseTwo }
     \new Staff = "Alto" \with {
       instrumentName = "Alto" shortInstrumentName = "A."
-      midiInstrument = "choir aahs"
+      midiInstrument = "clarinet"
       midiMinimumVolume = #0.55 midiMaximumVolume = #0.80
     } { \clef treble \key f \major \alto }
     \new Staff = "Baritone" \with {
       instrumentName = "Baritone" shortInstrumentName = "Bar."
-      midiInstrument = "choir aahs"
+      midiInstrument = "clarinet"
       midiMinimumVolume = #0.55 midiMaximumVolume = #0.80
     } { \clef bass \key f \major \baritone }
   >>
