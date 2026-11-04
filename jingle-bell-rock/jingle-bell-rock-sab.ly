@@ -271,7 +271,7 @@ g'4 r4 r2 | % 4
 <b d' e' g'>8 <b d' e' g'>8 <b d' e' g'>4 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 | % 31
 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 | % 32
 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 | % 33
-<c' d' f'>8 <c' d' f'>8 <c' d' f'>4 <c' d' f'>8 <c' d' f'>8 <c' d' f'>4 | % 34
+<c' d' f'>8 <c' d' f'>8 <c' d' f'>4 <a c' d' f'>8 <a c' d' f'>8 <a c' d' f'>4 | % 34
 <c' fis' a'>8 <c' fis' a'>8 <c' fis' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 35
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 36
 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 <c' e' g'>8 <c' e' g'>8 <c' e' g'>4 | % 37
@@ -303,7 +303,7 @@ g'4 r4 r2 | % 4
 <b d' e' g'>8 <b d' e' g'>8 <b d' e' g'>4 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 | % 63
 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 <cis' e' g'>8 <cis' e' g'>8 <cis' e' g'>4 | % 64
 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 <c' f' a'>8 <c' f' a'>8 <c' f' a'>4 | % 65
-<c' d' f'>8 <c' d' f'>8 <c' d' f'>4 <c' d' f'>8 <c' d' f'>8 <c' d' f'>4 | % 66
+<c' d' f'>8 <c' d' f'>8 <c' d' f'>4 <a c' d' f'>8 <a c' d' f'>8 <a c' d' f'>4 | % 66
 <c' fis' a'>8 <c' fis' a'>8 <c' fis' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 67
 <c' fis' a'>8 <c' fis' a'>8 <c' fis' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 68
 <c' fis' a'>8 <c' fis' a'>8 <c' fis' a'>4 <d' f' b'>8 <d' f' b'>8 <d' f' b'>4 | % 69
@@ -344,7 +344,7 @@ c4 g4 c4 g4 | % 30
 e4 b4 a,4 e4 | % 31
 a,4 e4 a,4 e4 | % 32
 f,4 c4 f,4 c4 | % 33
-f,4 c4 f,4 c4 | % 34
+f,4 c4 d4 a4 | % 34
 d4 a4 g,4 d4 | % 35
 c4 g4 g,4 d4 | % 36
 c4 g4 c4 g4 | % 37
@@ -376,7 +376,7 @@ c4 g4 c4 g4 | % 62
 e4 b4 a,4 e4 | % 63
 a,4 e4 a,4 e4 | % 64
 f,4 c4 f,4 c4 | % 65
-f,4 c4 f,4 c4 | % 66
+f,4 c4 d4 a4 | % 66
 d4 a4 g,4 d4 | % 67
 d4 a4 g,4 d4 | % 68
 d4 a4 g,4 d4 | % 69
@@ -384,7 +384,7 @@ c2 g,2 | % 70
 <c, e, g, c>2. r4 | % 71
 \bar "|." }
 words = \lyricmode {     Jin -- gle bell jin -- gle bell jin -- gle bell rock jin -- gle bell swing and jin -- gle bells ring Snow -- in and blow -- in up bush -- els of fun now the jin -- gle hop has be -- gun Jin -- gle bell jin -- gle bell jin -- gle bell rock jin -- gle bells chime in jin -- gle bell time Danc -- in and pranc -- in in Jin -- gle bell Square in the fros -- ty air What a bright _ time it’s the right _ time to rock the night a -- way Jin -- gle bell _ time is a swell time to go glid -- in in a one horse sleigh Gid -- dy -- ap jin -- gle horse pick up your feet jin -- gle a round the clock Mix and min -- gle in a jin -- glin beat _ that’s the jin -- gle bell rock Jin -- gle bell jin -- gle bell jin -- gle bell rock jin -- gle bell swing and jin -- gle bells ring Snow -- in and blow -- in up bush -- els of fun now the jin -- gle hop has be -- gun Jin -- gle bell jin -- gle bell jin -- gle bell rock jin -- gle bells chime in jin -- gle bell time Danc -- in and pranc -- in in Jin -- gle bell Square in the fros -- ty air What a bright _ time it’s the right _ time to rock the night a -- way Jin -- gle bell _ time is a swell time to go glid -- in in a one horse sleigh Gid -- dy -- ap jin -- gle horse pick up your feet jin -- gle a round the clock Mix and min -- gle in a jin -- glin beat _ that’s the jin -- gle bell that’s the jin -- gle bell that’s the jin -- gle bell rock  }
-changes = \chordmode { c1 | c1 | g1 | g1:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | g1:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:7 g2:7 | c2 c2:7 | f1 | fis1:dim | c1 | c1 | a2:m7 d2:7 | a2:m7 d2:7 | g2:7 d2:m7 | g1:7 | c1 | c1 | e2:m7 a2:7 | a1:7 | f1 | f1:m6 | d2:7 g2:7 | c2 g2:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | g1:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:7 g2:7 | c2 c2:7 | f1 | fis1:dim | c1 | c1 | a2:m7 d2:7 | a2:m7 d2:7 | g2:7 d2:m7 | g1:7 | c1 | c1 | e2:m7 a2:7 | a1:7 | f1 | f1:m6 | d2:7 g2:7 | d2:7 g2:7 | d2:7 g2:7 | c2 c2/g | c1 }
+changes = \chordmode { c1 | c1 | g1 | g1:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | g1:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:7 g2:7 | c2 c2:7 | f1 | fis1:dim | c1 | c1 | a2:m7 d2:7 | a2:m7 d2:7 | g2:7 d2:m7 | g1:7 | c1 | c1 | e2:m7 a2:7 | a1:7 | f1 | f2:m6 d2:m7 | d2:7 g2:7 | c2 g2:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | g1:7 | c1 | c1 | c2 cis2:dim | d2:m7 g2:7 | d2:m7 g2:7 | d2:m7 g2:7 | d2:7 g2:7 | c2 c2:7 | f1 | fis1:dim | c1 | c1 | a2:m7 d2:7 | a2:m7 d2:7 | g2:7 d2:m7 | g1:7 | c1 | c1 | e2:m7 a2:7 | a1:7 | f1 | f2:m6 d2:m7 | d2:7 g2:7 | d2:7 g2:7 | d2:7 g2:7 | c2 c2/g | c1 }
 ensemble = <<
 \new ChordNames { \changes }
 \new Staff \with { instrumentName = "Soprano" shortInstrumentName = "S." midiInstrument = "clarinet" } { \clef treble \global \new Voice = "soprano" { \soprano } }
