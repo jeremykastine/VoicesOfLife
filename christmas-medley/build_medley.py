@@ -32,7 +32,9 @@ def plain(tokens):
     for a, b in [("Christ mas", "Christmas"), ("fi replace", "fireplace"),
                  ("fin est", "finest"), ("hon or", "honor"),
                  ("evry where", "everywhere"), ("evrywhere", "everywhere"),
-                 ("childrens", "children's"), ("child rens", "children's"),
+                 ("childrens", "children's"), ("child rens", "children's"), ("chil drens", "children's"),
+                 ("ev er", "ever"), ("shin ing", "shining"), ("an gels", "angels"),
+                 ("be fore", "before"), ("new born", "newborn"),
                  ("glidin", "glidin'"), ("Snowin", "Snowin'"), ("blowin", "blowin'"),
                  ("Dancin", "Dancin'"), ("prancin", "prancin'"), ("a round", "around")]:
         s = re.sub(r"\b" + re.escape(a) + r"\b", b, s)
