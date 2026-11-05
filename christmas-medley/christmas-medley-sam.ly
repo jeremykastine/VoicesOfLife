@@ -25,16 +25,21 @@ soprano = {
 \textMark \markup \tiny "Unison / octaves"
 bes4 ees'4 ees'4. d'8 | % 1
 ees'4 g'4 g'4( f'4) | % 2
+\textMark \markup \tiny "Harmony"
 bes'4 bes'4 bes'4. aes'8 | % 3
 g'4 f'4 g'4 r4 | % 4
 \break
+\textMark \markup \tiny "Unison / octaves"
 bes4 ees'4 ees'4. d'8 | % 5
 ees'4 g'4 g'4( f'8) r8 | % 6
+\textMark \markup \tiny "Harmony"
 bes'4 f'4 f'4. ees'8 | % 7
 d'4 c'4 bes4 r4 | % 8
 \break
-bes'4 bes'4 bes'4 ees'4 | % 9
+\textMark \markup \tiny "Unison / octaves"
+bes'4 bes'4 bes'4 ees'4^\markup \tiny "Harmony" | % 9
 aes'4 g'4 g'4( f'8) r8 | % 10
+\textMark \markup \tiny "Octave unison"
 bes'4 bes'4 bes'4 ees''8( d''8) | % 11
 \textMark \markup \tiny "Harmony"
 c''4. d''8 bes'2 | % 12
@@ -46,13 +51,9 @@ f'4 g'8( aes'8) bes'4 r8 ees'8 | % 15
 \textMark \markup \tiny "Harmony"
 ees'4 f'4 g'2 | % 16
 \break
-\textMark \markup \tiny "Unison / octaves"
 c''4 r8 c''8 c''4 bes'4 | % 17
-\textMark \markup \tiny "Harmony"
 aes'4 g'4 aes'4. r8 | % 18
-\textMark \markup \tiny "Unison / octaves"
 f'4 g'8( aes'8) bes'4. ees'8 | % 19
-\textMark \markup \tiny "Harmony"
 ees'2 f'2 | % 20
 \break
 ees'1 | % 21
@@ -459,27 +460,27 @@ alto = {
 \tempo 4 = 104
 bes4 ees'4 ees'4. d'8 | % 1
 ees'4 g'4 g'4( f'4) | % 2
-bes'4 bes'4 bes'4. aes'8 | % 3
-g'4 f'4 g'4 r4 | % 4
+ees'4 d'4 ees'4. ees'8 | % 3
+ees'4 d'4 bes4 r4 | % 4
 \break
 bes4 ees'4 ees'4. d'8 | % 5
 ees'4 g'4 g'4( f'8) r8 | % 6
-bes'4 f'4 f'4. ees'8 | % 7
-d'4 c'4 bes4 r4 | % 8
+ees'4 c'4 d'4. bes8 | % 7
+bes4 a4 d'4 r4 | % 8
 \break
-bes'4 bes'4 bes'4 ees'4 | % 9
-aes'4 g'4 g'4( f'8) r8 | % 10
-bes'4 bes'4 bes'4 ees'8( d''8) | % 11
-aes'4. aes'8 f'2 | % 12
+bes'4 bes'4 bes'4 g'4 | % 9
+f'4 ees'4 ees'4( d'8) r8 | % 10
+bes4 bes4 bes4 ees'8( d'8) | % 11
+ees'4. aes'8 f'2 | % 12
 \break
 aes'4 r8 aes'8 aes'4 g'4 | % 13
 f'4 e'4 f'2 | % 14
 f'4 g'8( aes'8) bes'4 r8 ees'8 | % 15
-ees'4 d'4 ees'2 | % 16
+bes4 d'4 ees'2 | % 16
 \break
-c''4 r8 c''8 c''4 bes'4 | % 17
+aes'4 r8 aes'8 aes'4 g'4 | % 17
 f'4 e'4 f'4. r8 | % 18
-f'4 g'8( aes'8) bes'4. ees'8 | % 19
+d'4 ees'8( d'8) ees'4. bes8 | % 19
 g2 d'2 | % 20
 \break
 g1 | % 21
@@ -820,27 +821,27 @@ men = {
 \tempo 4 = 104
 bes,4 ees4 ees4. d8 | % 1
 ees4 g4 g4( f4) | % 2
-bes4 bes4 bes4. aes8 | % 3
-g4 f4 g4 r4 | % 4
+g4 g4 ees4. c8 | % 3
+bes,4 bes,4 ees4 r4 | % 4
 \break
 bes,4 ees4 ees4. d8 | % 5
 ees4 g4 g4( f8) r8 | % 6
-bes4 f4 f4. ees8 | % 7
-d4 c4 bes,4 r4 | % 8
+g4 a4 bes4. g8 | % 7
+f4 f4 f4 r4 | % 8
 \break
-bes4 bes4 bes4 ees4 | % 9
-aes4 g4 g4( f8) r8 | % 10
+bes4 bes4 bes4 bes4 | % 9
+bes4 bes4 bes4( bes8) r8 | % 10
 bes4 bes4 bes4 ees'8( d'8) | % 11
-ees4. f8 bes2 | % 12
+aes4. f8 bes2 | % 12
 \break
 ees'4 r8 ees'8 ees'4 c'4 | % 13
 c'4 c'4 aes2 | % 14
 f4 g8( aes8) bes4 r8 ees8 | % 15
-bes4 bes4 bes2 | % 16
+g4 bes4 bes2 | % 16
 \break
-c'4 r8 c'8 c'4 bes4 | % 17
+ees'4 r8 ees'8 ees'4 c'4 | % 17
 c'4 c'4 c'4. r8 | % 18
-f4 g8( aes8) bes4. ees8 | % 19
+bes4 bes8( bes8) g4. g8 | % 19
 ees2 bes,2 | % 20
 \break
 ees1 | % 21
