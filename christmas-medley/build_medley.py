@@ -212,13 +212,19 @@ def main():
         with fitz.open(HERE / "christmas-medley-sam.pdf") as pdf:
             assert all(page.get_text().strip() for page in pdf)
             pages = len(pdf)
+        review = HERE / "review-pages"
+        review.mkdir(exist_ok=True)
+        for label, filename in [("score", "christmas-medley-sam.pdf"), ("lyrics", "lyrics.pdf")]:
+            with fitz.open(HERE / filename) as document:
+                for number, page in enumerate(document, 1):
+                    page.get_pixmap(matrix=fitz.Matrix(1, 1), alpha=False).save(review / f"{label}-{number:02d}.png")
         report = {"duration_seconds": midi.length, "score_pages": pages, "lyric_pages": lyric_pages,
                   "vocal_ranges_midi": ranges, "swing_spans_quarter_beats": spans,
                   "parts": ["Soprano", "Alto", "Men"], "piano_tracks": 0,
                   "swing_offbeats_verified": delayed_offbeats,
                   "checks": ["equal voice measure lengths", "MIDI voice count", "soprano ceiling",
                              "part isolation", "audio durations", "nonempty PDF pages"],
-                  "visual_inspection": "Not performed: local execution environment unavailable."}
+                  "visual_inspection": "Rendered PNGs in review-pages; see root MEDLEY_REVIEW.md for reviewer findings."}
         (HERE / "validation.json").write_text(json.dumps(report, indent=2) + "\n")
         print(json.dumps(report), flush=True)
 
