@@ -7,6 +7,7 @@ on:
       - 'build_rehearsal_assets.py'
       - 'generate_score_previews.py'
       - '.github/workflows/score-assets.yml'
+      - 'all-i-want-for-christmas-is-you/build_a_cappella.py'
   workflow_dispatch:
 permissions:
   contents: write
@@ -30,12 +31,14 @@ jobs:
           sudo apt-get install -y --no-install-recommends lilypond fluidsynth fluid-soundfont-gm ffmpeg
           python -m pip install mido==1.3.3 PyMuPDF==1.26.6
       - name: Rebuild all scores, audio, and inline pages
-        run: python build_rehearsal_assets.py
+        run: |
+          python build_rehearsal_assets.py
+          python all-i-want-for-christmas-is-you/build_a_cappella.py
       - name: Commit matching rehearsal assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- '*/*-sab.pdf' '*/*.mp3' '*/*.musicxml' '*/score-pages/*.svg' '*/index.html'
+          git add -- '*/*-sab.pdf' '*/*-a-cappella.pdf' '*/*.mp3' '*/*.musicxml' '*/score-pages/*.svg' '*/index.html'
           if ! git diff --cached --quiet; then
             git commit -m "Rebuild scores and clarinet rehearsal tracks after piano harmony review"
             git pull --rebase origin main
