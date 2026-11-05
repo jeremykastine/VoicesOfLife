@@ -28,7 +28,7 @@ styles = getSampleStyleSheet()
 styles.add(ParagraphStyle(name="Song",parent=styles["Title"],fontName="Helvetica-Bold",fontSize=17,leading=20,spaceAfter=5,alignment=TA_LEFT))
 styles.add(ParagraphStyle(name="Words",parent=styles["Normal"],fontSize=11,leading=15,spaceAfter=7))
 styles.add(ParagraphStyle(name="HeadingSmall",parent=styles["Normal"],fontSize=10,leading=12,textColor=colors.HexColor("#53636b"),spaceAfter=10))
-for folder in ("this-christmas","hark-the-herald-angels-sing","mary-did-you-know"):
+for folder in ("this-christmas","hark-the-herald-angels-sing","mary-did-you-know","let-it-snow"):
     source=Path(folder)/"lyrics.html"
     p=LyricsParser()
     p.feed(source.read_text(encoding="utf-8"))

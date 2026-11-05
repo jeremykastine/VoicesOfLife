@@ -5,6 +5,7 @@
 - [Feliz Navidad](feliz-navidad/)
 - [Hark! The Herald Angels Sing - Pentatonix version](hark-the-herald-angels-sing/)
 - [Jingle Bell Rock](jingle-bell-rock/)
+- [Let It Snow! Let It Snow! Let It Snow!](let-it-snow/)
 - [Mary, Did You Know](mary-did-you-know/)
 - [The Little Drummer Boy](the-little-drummer-boy/)
 - [This Christmas](this-christmas/)
