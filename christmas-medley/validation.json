@@ -40,6 +40,7 @@
     "Men"
   ],
   "piano_tracks": 0,
+  "swing_offbeats_verified": 423,
   "checks": [
     "equal voice measure lengths",
     "MIDI voice count",
@@ -48,5 +49,5 @@
     "audio durations",
     "nonempty PDF pages"
   ],
-  "visual_inspection": "Not performed: local execution environment unavailable."
+  "visual_inspection": "Rendered PNGs in review-pages; see root MEDLEY_REVIEW.md for reviewer findings."
 }
