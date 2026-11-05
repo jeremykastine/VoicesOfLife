@@ -8,7 +8,6 @@
 - [Let It Snow! Let It Snow! Let It Snow!](let-it-snow/)
 - [Mary, Did You Know](mary-did-you-know/)
 - [The Little Drummer Boy](the-little-drummer-boy/)
-- [Silent Night - Temptations-inspired](silent-night/)
 - [This Christmas](this-christmas/)
 
 Each song has an SAB choir-and-piano PDF score, full rehearsal MP3, three practice MP3s with piano and one clarinet vocal line, and LilyPond source for editing. Audio appears first, followed by every score page inline and a PDF download link. Playback is synthesized, without sung words.
