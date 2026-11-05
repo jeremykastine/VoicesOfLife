@@ -25,9 +25,19 @@ def run(*args):
 
 def plain(tokens):
     s = " ".join(tokens)
+    # Remove held-note placeholders before joining syllables across melismas.
+    s = re.sub(r"(?:^|\s)_{1,2}(?=\s|$)", " ", s)
     s = re.sub(r"\s+--\s+", "", s)
-    s = re.sub(r"\s*__?\s*", " ", s)
-    return re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"\s+", " ", s).strip()
+    for a, b in [("Christ mas", "Christmas"), ("fi replace", "fireplace"),
+                 ("fin est", "finest"), ("hon or", "honor"),
+                 ("evry where", "everywhere"), ("evrywhere", "everywhere"),
+                 ("childrens", "children's"), ("child rens", "children's"),
+                 ("glidin", "glidin'"), ("Snowin", "Snowin'"), ("blowin", "blowin'"),
+                 ("Dancin", "Dancin'"), ("prancin", "prancin'"), ("a round", "around")]:
+        s = re.sub(r"\b" + re.escape(a) + r"\b", b, s)
+    s = re.sub(r"\s+--$", "-", s)
+    return s
 
 def lyric_guide(sections):
     blocks = [
@@ -48,6 +58,8 @@ def lyric_guide(sections):
         blocks.append((f'{key} {sec["mode"]}; quarter note = {sec["bpm"]}.', 10, False))
         if sec["id"] == "B":
             blocks.append(("Harmony starts on the final pickup 'know' in m. 40, leading into m. 41; return to melody/octaves after the marked phrase.", 10, False))
+        if sec["id"] == "C":
+            blocks.append(("At m. 61, harmony begins on '-dad', completing the preceding 'Navi-'. The following labels track every return to melody.", 10, False))
         if sec["id"] == "F2":
             blocks.append(("Harmony begins on 'now' at the end of m. 163 and continues through the held note in m. 164.", 10, False))
         content.append("<h2>" + html.escape(heading) + "</h2>")
