@@ -8,7 +8,6 @@ on:
       - 'generate_score_previews.py'
       - '.github/workflows/score-assets.yml'
       - 'all-i-want-for-christmas-is-you/build_a_cappella.py'
-      - 'christmas-medley/**'
       - 'swing_playback.py'
   workflow_dispatch:
 permissions:
@@ -40,9 +39,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- '*/*-sab.pdf' '*/*-a-cappella.pdf' '*/*.mp3' '*/*.musicxml' '*/score-pages/*.svg' '*/index.html' 'christmas-medley/'
+          git add -- '*/*-sab.pdf' '*/*-a-cappella.pdf' '*/*.mp3' '*/*.musicxml' '*/score-pages/*.svg' '*/index.html'
           if ! git diff --cached --quiet; then
-            git commit -m "Build a cappella medley and matching rehearsal assets"
+            git commit -m "Build matching rehearsal assets"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

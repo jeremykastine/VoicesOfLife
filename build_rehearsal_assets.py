@@ -8,7 +8,6 @@ LilyPond is the authoritative notation source. MIDI/WAV stay intermediate.
 from __future__ import annotations
 
 import argparse
-import sys
 from swing_playback import swing_midi
 import copy
 import os
@@ -197,8 +196,6 @@ def main() -> None:
         if missing:
             parser.error(f'Unknown songs: {sorted(missing)}')
         sources = [s for s in sources if s.parent.name in args.songs]
-    if not args.songs:
-        run([sys.executable, str(ROOT / 'christmas-medley' / 'build_medley.py')])
     with tempfile.TemporaryDirectory(prefix='voices-of-life-') as temp:
         for source in sources:
             build(source, args.soundfont, Path(temp))
