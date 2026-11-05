@@ -2,6 +2,9 @@
 
 ## Christmas Songs - Christmas 2026
 
+- [Christmas Medley - a cappella for Soprano, Alto and Men](christmas-medley/)
+
+- [All I Want for Christmas Is You](all-i-want-for-christmas-is-you/)
 - [Feliz Navidad](feliz-navidad/)
 - [Hark! The Herald Angels Sing - Pentatonix version](hark-the-herald-angels-sing/)
 - [Jingle Bell Rock](jingle-bell-rock/)
@@ -14,3 +17,5 @@ Each song has an SAB choir-and-piano PDF score, full rehearsal MP3, three practi
 [Piano harmony review and measure-by-measure change notes](PIANO_REVIEW.md)
 
 To regenerate matching scores, audio, and inline pages, install LilyPond 2.24, FluidSynth, FluidR3 GM, ffmpeg, mido, and PyMuPDF, then run `python build_rehearsal_assets.py`. The score-assets GitHub workflow also rebuilds them after notation changes on main.
+
+The seven-song a cappella medley has a separate voice-only score, full and isolated Soprano/Alto/Men MP3s, an annotated lyric/rehearsal PDF, and editable LilyPond source. See [medley build and page review](MEDLEY_REVIEW.md).
