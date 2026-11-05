@@ -46,6 +46,10 @@ def lyric_guide(sections):
         blocks.append((heading, 13, True))
         key = {"ees": "E-flat", "c": "C", "aes": "A-flat", "bes": "B-flat"}[sec["key"]]
         blocks.append((f'{key} {sec["mode"]}; quarter note = {sec["bpm"]}.', 10, False))
+        if sec["id"] == "B":
+            blocks.append(("Harmony starts on the final pickup 'know' in m. 40, leading into m. 41; return to melody/octaves after the marked phrase.", 10, False))
+        if sec["id"] == "F2":
+            blocks.append(("Harmony begins on 'now' at the end of m. 163 and continues through the held note in m. 164.", 10, False))
         content.append("<h2>" + html.escape(heading) + "</h2>")
         runs = []
         for bar in sec["bars"]:
@@ -152,7 +156,20 @@ def main():
         (HERE / "christmas-medley-sam.pdf").write_bytes(prefix.with_suffix(".pdf").read_bytes())
         raw = mido.MidiFile(prefix.with_suffix(".midi"))
         midi = swing_midi(raw, spans)
-        # Validate real playback swing at every offbeat in the requested ranges.
+        # Check offbeat attacks were delayed while pitches stayed identical.
+        delayed_offbeats = 0
+        for before, after in zip(raw.tracks, midi.tracks):
+            t0 = t1 = 0
+            for a, b in zip(before, after):
+                t0 += a.time
+                t1 += b.time
+                if a.type == "note_on" and a.velocity:
+                    assert a.note == b.note
+                    beat = t0 / raw.ticks_per_beat
+                    if any(x <= beat < y for x, y in spans) and abs(beat % 1 - .5) < .001:
+                        assert abs(t1 / raw.ticks_per_beat - (int(beat) + 2/3)) < .003
+                        delayed_offbeats += 1
+        assert delayed_offbeats > 20, delayed_offbeats
         assert spans
         sounding = [t for t in midi.tracks if any(m.type == "note_on" and m.velocity for m in t)]
         assert len(sounding) == 3, len(sounding)
@@ -198,6 +215,7 @@ def main():
         report = {"duration_seconds": midi.length, "score_pages": pages, "lyric_pages": lyric_pages,
                   "vocal_ranges_midi": ranges, "swing_spans_quarter_beats": spans,
                   "parts": ["Soprano", "Alto", "Men"], "piano_tracks": 0,
+                  "swing_offbeats_verified": delayed_offbeats,
                   "checks": ["equal voice measure lengths", "MIDI voice count", "soprano ceiling",
                              "part isolation", "audio durations", "nonempty PDF pages"],
                   "visual_inspection": "Not performed: local execution environment unavailable."}

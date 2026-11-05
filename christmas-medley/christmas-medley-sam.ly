@@ -21,9 +21,8 @@ soprano = {
 \key ees \major
 \time 4/4
 \tempo 4 = 104
-\mark \markup \box "A"
-\textMark \markup \small "Hark! The Herald Angels Sing"
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\mark \markup \box \small "A - Hark!"
+\textMark \markup \tiny "Unison / octaves"
 bes4 ees'4 ees'4. d'8 | % 1
 ees'4 g'4 g'4( f'4) | % 2
 bes'4 bes'4 bes'4. aes'8 | % 3
@@ -37,23 +36,23 @@ d'4 c'4 bes4 r4 | % 8
 bes'4 bes'4 bes'4 ees'4 | % 9
 aes'4 g'4 g'4( f'8) r8 | % 10
 bes'4 bes'4 bes'4 ees''8( d''8) | % 11
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 c''4. d''8 bes'2 | % 12
 \break
 c''4 r8 c''8 c''4 bes'4 | % 13
 aes'4 g'4 aes'2 | % 14
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\textMark \markup \tiny "Unison / octaves"
 f'4 g'8( aes'8) bes'4 r8 ees'8 | % 15
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 ees'4 f'4 g'2 | % 16
 \break
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\textMark \markup \tiny "Unison / octaves"
 c''4 r8 c''8 c''4 bes'4 | % 17
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 aes'4 g'4 aes'4. r8 | % 18
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\textMark \markup \tiny "Unison / octaves"
 f'4 g'8( aes'8) bes'4. ees'8 | % 19
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 ees'2 f'2 | % 20
 \break
 ees'1 | % 21
@@ -61,9 +60,8 @@ ees'1 | % 21
 \key ees \major
 \time 4/4
 \tempo 4 = 200
-\mark \markup \box "A2"
-\textMark \markup \small "Hark - rhythmic riff"
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\mark \markup \box \small "A2 - Hark - riff"
+\textMark \markup \tiny "Unison / octaves"
 r4 bes4 r8 c'8 r4 | % 22
 ees'2 c'2 | % 23
 r4 bes4 r8 c'8 r4 | % 24
@@ -73,15 +71,14 @@ r4 bes4 r8 c'8 r4 | % 26
 ees'2 aes'2 | % 27
 ges'2 ges'2 | % 28
 \break
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 ees'1 | % 29
 % A3 Hark - bridge taste
 \key ees \major
 \time 4/4
 \tempo 4 = 108
-\mark \markup \box "A3"
-\textMark \markup \small "Hark - bridge taste"
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\mark \markup \box \small "A3 - Hark - bridge"
+\textMark \markup \tiny "Harmony"
 des''4 des''8 des''8~ des''8 des''4 des''8~ | % 30
 des''8 des''4 ees''8~ ees''2 | % 31
 des''4 des''8 des''8~ des''8 des''4 des''8~ | % 32
@@ -91,8 +88,7 @@ des''8 des''4 ees''8~ ees''2 | % 33
 \key c \minor
 \time 4/4
 \tempo 4 = 84
-\mark \markup \box "T1"
-\textMark \markup \small "Oo: E-flat major to C minor"
+\mark \markup \box \small "T1"
 \textMark \markup \tiny "Transition"
 ees''2 d''2 | % 34
 c''1 | % 35
@@ -100,9 +96,8 @@ c''1 | % 35
 \key c \minor
 \time 4/4
 \tempo 4 = 72
-\mark \markup \box "B"
-\textMark \markup \small "Mary, Did You Know - verse 1"
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\mark \markup \box \small "B - Mary, Did You Know"
+\textMark \markup \tiny "Unison / octaves"
 r2 r4 c'16 d'16 ees'16 f'16 | % 36
 \break
 g'8 r8 r16 c'16 g'16 f'16~ f'8 ees'16 d'16~ d'8 r16 c'16 | % 37
@@ -110,10 +105,10 @@ c'16 d'8 ees'16~ ees'16 f'8 ees'16~ ees'16 d'8. c'16 d'16 ees'16 f'16 | % 38
 g'8 r8 r16 c'16 g'16 f'16~ f'8 ees'16 d'16~ d'8 r16 c'16 | % 39
 c'16 d'8 ees'16~ ees'16 f'8 aes'8 g'8. r16 g'16 c''16 c''16~ | % 40
 \break
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 c''4 r16 c''16 ees''16 d''16~ d''8 c''16 bes'16~ bes'8 r16 g'16 | % 41
 g'8 g'16 bes'16~ bes'16 c''8 c''16~ c''4 r8 g'16 aes'16~ | % 42
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\textMark \markup \tiny "Unison / octaves"
 aes'8 g'16 f'16~ f'8 ees'16 f'16~ f'16 g'8. r8 f'16 g'16~ | % 43
 g'8. aes'16 g'16 aes'8 g'8. r8 r4 | % 44
 \break
@@ -121,41 +116,37 @@ g'8. aes'16 g'16 aes'8 g'8. r8 r4 | % 44
 \key c \minor
 \time 4/4
 \tempo 4 = 72
-\mark \markup \box "B2"
-\textMark \markup \small "Mary - The blind will see"
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\mark \markup \box \small "B2 - Mary - bridge"
+\textMark \markup \tiny "Unison / octaves"
 r2 r4 r8. g'16 | % 45
 bes'8 bes'16 bes'16~ bes'8 r16 bes'16 aes'8 aes'16 bes'16~ bes'8 r16 c''16 | % 46
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 ees''8. d''16 c''16 bes'16 c''8~ c''4. r16 bes'16 | % 47
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\textMark \markup \tiny "Unison / octaves"
 bes'8 bes'16 bes'16~ bes'8 r16 bes'16 aes'8 aes'16 bes'16~ bes'8 r16 ees'16 | % 48
 \break
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 ees'8 f'16 g'16 g'8 aes'16( g'16~ g'2) | % 49
 % B3 Mary - quiet cadence
 \key c \minor
 \time 4/4
 \tempo 4 = 72
-\mark \markup \box "B3"
-\textMark \markup \small "Mary - quiet cadence"
+\mark \markup \box \small "B3 - Mary - cadence"
 \textMark \markup \tiny "Oo cadence"
 c'1 | % 50
 % T2 Oo: C minor to A-flat major
 \key aes \major
 \time 4/4
 \tempo 4 = 84
-\mark \markup \box "T2"
-\textMark \markup \small "Oo: C minor to A-flat major"
+\mark \markup \box \small "T2"
 \textMark \markup \tiny "Transition"
 c'2 c'2 | % 51
 % C Feliz Navidad - Spanish and English
 \key aes \major
 \time 4/4
 \tempo 4 = 132
-\mark \markup \box "C"
-\textMark \markup \small "Feliz Navidad - Spanish and English"
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\mark \markup \box \small "C - Feliz Navidad"
+\textMark \markup \tiny "Unison / octaves"
 r4 r8 ees'8 aes'4 g'8 aes'8 | % 52
 \break
 f'1~ | % 53
@@ -168,7 +159,7 @@ ees'8 ees'8 f'8 ees'8 des'4 des'8 c'8~ | % 58
 c'1~ | % 59
 c'4 r8 ees'8 aes'4 g'8 aes'8 | % 60
 \break
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 f'1~ | % 61
 f'4 r8 f'8 bes'4 aes'8 f'8 | % 62
 ees'1~ | % 63
@@ -177,25 +168,25 @@ ees'4 r8 ees'8 aes'4 g'8 aes'8 | % 64
 f'4. des'8 f'4 f'4 | % 65
 ees'8 ees'8 f'8 ees'8 des'4 des'8 c'8~ | % 66
 c'1 | % 67
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\textMark \markup \tiny "Unison / octaves"
 r8 bes'8 bes'8 bes'8 bes'8 aes'4 f'8 | % 68
 \break
 aes'4 f'4 f'8 aes'4. | % 69
 r8 bes'8 bes'8 bes'8 bes'4 aes'8 f'8 | % 70
 f'4 ees'4 d'8 ees'4. | % 71
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 r8 c''8 c''8 c''8 c''8 bes'4 aes'8 | % 72
 \break
 aes'4 f'4 f'8 f'8 bes'8 aes'8 | % 73
 g'8 g'4. aes'4 bes'4 | % 74
 bes'4 aes'2.~ | % 75
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\textMark \markup \tiny "Unison / octaves"
 aes'8 c''8 c''8 c''8 c''8 bes'4 aes'8 | % 76
 \break
 aes'4 f'4 e'8 f'4. | % 77
 r8 bes'8 bes'8 bes'8 bes'4 aes'8 f'8~ | % 78
 f'4 ees'4 d'8 ees'4. | % 79
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 r8 c''8 c''8 c''8 c''8 bes'4 aes'8 | % 80
 \break
 aes'4 f'4 f'4 bes'8 aes'8 | % 81
@@ -205,8 +196,7 @@ bes'4 aes'2. | % 83
 \key bes \major
 \time 4/4
 \tempo 4 = 84
-\mark \markup \box "T3"
-\textMark \markup \small "Oo: A-flat through F7 to B-flat"
+\mark \markup \box \small "T3"
 \textMark \markup \tiny "Transition"
 c''2 a'2 | % 84
 \break
@@ -215,9 +205,8 @@ bes'1 | % 85
 \key bes \major
 \time 4/4
 \tempo 4 = 108
-\mark \markup \box "D"
-\textMark \markup \small "The Little Drummer Boy - verse 1"
-\textMark \markup \tiny "Women: melody in unison; Men: bum"
+\mark \markup \box \small "D - Little Drummer Boy"
+\textMark \markup \tiny "Women: unison; Men: bum"
 bes2. c'4 | % 86
 d'2 d'4 d'4 | % 87
 ees'8 d'8 ees'4 d'2~ | % 88
@@ -246,29 +235,27 @@ d'4 d'4 d'4. d'8 | % 105
 \time 2/4
 ees'8 d'8 ees'4 | % 106
 \time 4/4
-\textMark \markup \tiny "Women: melody/harmony; Men: bum, divisi fifth"
+\textMark \markup \tiny "Women: harmony; Men: bum (div.)"
 d'1 | % 107
-\textMark \markup \tiny "Women: melody in unison; Men: bum"
+\textMark \markup \tiny "Women: unison; Men: bum"
 r2 c'8 bes8 c'4 | % 108
 \break
-\textMark \markup \tiny "Women: melody/harmony; Men: bum, divisi fifth"
+\textMark \markup \tiny "Women: harmony; Men: bum (div.)"
 bes1~ | % 109
 bes1 | % 110
 % T4 Breathe; keep B-flat for swing entrance
 \key bes \major
 \time 4/4
 \tempo 4 = 120
-\mark \markup \box "T4"
-\textMark \markup \small "Breathe; keep B-flat for swing entrance"
+\mark \markup \box \small "T4"
 \textMark \markup \tiny "One-bar rest"
 r1 | % 111
 % E Jingle Bell Rock - swing 2:1
 \key bes \major
 \time 4/4
 \tempo 4 = 120
-\mark \markup \box "E"
-\textMark \markup \small "Jingle Bell Rock - swing 2:1"
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\mark \markup \box \small "E - Jingle Bell Rock"
+\textMark \markup \tiny "Unison / octaves"
 bes'8 bes'8 bes'4 a'8 a'8 a'4 | % 112
 \break
 g'8 a'8 g'8 d'8~ d'2 | % 113
@@ -287,7 +274,7 @@ g'8 a'8 g'4 f'2 | % 123
 d'8 ees'4 f'8 g'8 a'4 g'8 | % 124
 \break
 d'8 ees'8 f'4 g'2 | % 125
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 r4 g'8 g'8 a'8 f'4 bes'8~ | % 126
 bes'2. bes'8 bes'8 | % 127
 bes'8 c''4 bes'8~ bes'4 g'8 bes'8 | % 128
@@ -298,7 +285,7 @@ d'2. bes'8 bes'8 | % 131
 bes'8 c''4 bes'8~ bes'4 g'8 bes'8 | % 132
 \break
 c''4. bes'8~ bes'2 | % 133
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\textMark \markup \tiny "Unison / octaves"
 r8 f'8 f'4 g'8 g'8 g'8 g'8 | % 134
 a'4 g'4 f'8~ f'4 r8 | % 135
 bes'8 bes'8 bes'4 a'8 a'8 a'4 | % 136
@@ -306,7 +293,7 @@ bes'8 bes'8 bes'4 a'8 a'8 a'4 | % 136
 g'8 a'8 g'8 d'8~ d'2 | % 137
 g'8 a'8 g'4 d'4 f'4 | % 138
 g'1 | % 139
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 g'4 bes'4 c''8 bes'8 bes'8 bes'8 | % 140
 \break
 aes'8 aes'8 c''8 d''8~ d''2 | % 141
@@ -316,8 +303,7 @@ bes'2. r4 | % 143
 \key ees \major
 \time 4/4
 \tempo 4 = 96
-\mark \markup \box "T5"
-\textMark \markup \small "Oo: B-flat7 opens into E-flat"
+\mark \markup \box \small "T5"
 \textMark \markup \tiny "Transition"
 aes'2 g'2 | % 144
 \break
@@ -325,30 +311,29 @@ aes'2 g'2 | % 144
 \key ees \major
 \time 4/4
 \tempo 4 = 96
-\mark \markup \box "F"
-\textMark \markup \small "This Christmas - verse 1 and refrain"
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\mark \markup \box \small "F - This Christmas"
+\textMark \markup \tiny "Unison / octaves"
 g'4 g'8. g'16 bes'8 g'8 f'8( ees'8) | % 145
 g'4 g'8. g'16 bes'8 g'8 f'8 ees'8 | % 146
 f'8 ees'4.~ ees'2 | % 147
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 r4 c''4 bes'4 g'4 | % 148
 \break
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\textMark \markup \tiny "Unison / octaves"
 g'4 g'8. g'16 bes'8 g'8 f'8( ees'8) | % 149
 g'8 g'8 g'8. g'16 bes'8 g'8 f'8 ees'8 | % 150
 f'4 ees'2. | % 151
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 r4 c''4 bes'4 g'8. g'16 | % 152
 \break
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\textMark \markup \tiny "Unison / octaves"
 d''8 c''8 c''8 c''8 bes'8 g'8 g'4~ | % 153
 g'2. r8 c'8 | % 154
 g'8 g'8 ees'4 c'8 aes'8~ aes'8 f'8~ | % 155
 f'8( g'8 ees'2) ees'8 f'8 | % 156
 \break
 f'8 g'4.~ g'4 f'4 | % 157
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 ees'4.. ees'16 ees'8 f'8 ees'8 f'8 | % 158
 f'8 g'8~ g'2 ees'4 | % 159
 f'4.( ees'8~ ees'2) | % 160
@@ -357,8 +342,7 @@ f'4.( ees'8~ ees'2) | % 160
 \key ees \major
 \time 4/4
 \tempo 4 = 96
-\mark \markup \box "F2"
-\textMark \markup \small "This Christmas - short coda"
+\mark \markup \box \small "F2 - This Christmas - coda"
 \time 3/4
 \textMark \markup \tiny "Melody; final held note in harmony"
 r4 g'8 f'8 f'8 ees'8~ | % 161
@@ -373,9 +357,8 @@ ees'1 | % 164
 \key ees \major
 \time 4/4
 \tempo 4 = 69
-\mark \markup \box "G"
-\textMark \markup \small "All I Want for Christmas Is You - opening taste"
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\mark \markup \box \small "G - All I Want - opening"
+\textMark \markup \tiny "Unison / octaves"
 r2 r4 r8 ees'8~ | % 165
 ees'2 r8 g'8 bes'8 d''8 | % 166
 ees''4 d''8 c''8 bes'8 c''8 bes'4 | % 167
@@ -383,9 +366,8 @@ ees''4 d''8 c''8 bes'8 c''8 bes'4 | % 167
 \key ees \major
 \time 4/4
 \tempo 4 = 152
-\mark \markup \box "G2"
-\textMark \markup \small "All I Want - fast verse and refrain"
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\mark \markup \box \small "G2 - All I Want - verse"
+\textMark \markup \tiny "Unison / octaves"
 ees'4 g'4 bes'4 d''8 ees''8~ | % 168
 \break
 ees''8 d''4 c''8~ c''8 bes'4. | % 169
@@ -406,7 +388,7 @@ r4 bes'8 g'8 g'8 f'4 g'8~ | % 180
 g'8 f'4 ees'8~ ees'8 c'4. | % 181
 aes'4 b8 ees'8~ ees'8 f'8 ees'8 ges'8~ | % 182
 ges'8 f'8 ges'8 d'8( b4) r4 | % 183
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 ees'4 f'4 d'4 ees'8 c'8~ | % 184
 \break
 c'8 d'4 c'8( b4) r4 | % 185
@@ -424,30 +406,28 @@ c'8 d'8 c'8 bes4. r4 | % 193
 \key ees \major
 \time 4/4
 \tempo 4 = 152
-\mark \markup \box "G3"
-\textMark \markup \small "All I Want - bridge taste"
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\mark \markup \box \small "G3 - All I Want - bridge"
+\textMark \markup \tiny "Unison / octaves"
 r2 r8 bes'4. | % 194
 g'8 f'16 ees'16 d'8 r8 f'4 g'8 aes'8~ | % 195
 aes'8 g'4 f'8~ f'8 g'8 f'8 ees'8 | % 196
 \break
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 d'4 ees'8 f'8~ f'8 g'8 f'8 g'8~ | % 197
 g'8 aes'8 g'4 f'2 | % 198
-\textMark \markup \tiny "Melody in unison; Men one octave below"
+\textMark \markup \tiny "Unison / octaves"
 r2 f'8 g'4 c''8~ | % 199
 c''8 bes'4 g'16 f'16 ees'8 ees'4. | % 200
 \break
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\textMark \markup \tiny "Harmony"
 g'4 bes'8 g'16 f'16 ees'8 ees'4 f'8~ | % 201
 f'8 g'8 f'4 ees'2 | % 202
 % G4 All I Want - final refrain
 \key ees \major
 \time 4/4
 \tempo 4 = 152
-\mark \markup \box "G4"
-\textMark \markup \small "All I Want - final refrain"
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\mark \markup \box \small "G4 - All I Want - refrain"
+\textMark \markup \tiny "Harmony"
 ees'4 f'4 d'4 ees'8 c'8~ | % 203
 c'8 d'4 c'8( b4) r4 | % 204
 \break
@@ -466,9 +446,8 @@ r4 ees''2.~ | % 213
 \key ees \major
 \time 4/4
 \tempo 4 = 96
-\mark \markup \box "G5"
-\textMark \markup \small "Final chord - hold, then release together"
-\textMark \markup \tiny "Soprano: melody; Alto and Men: harmony"
+\mark \markup \box \small "G5 - Final chord"
+\textMark \markup \tiny "Harmony"
 ees''1~ | % 214
 ees''1 | % 215
 \bar "|."
@@ -585,33 +564,33 @@ ees'8 ees'8 f'8 ees'8 des'4 des'8 c'8~ | % 58
 c'1~ | % 59
 c'4 r8 ees'8 aes'4 g'8 aes'8 | % 60
 \break
-des'1~ | % 61
-des'4 r8 ees'8 g'4 ees'8 ees'8 | % 62
+bes1~ | % 61
+bes4 r8 bes8 g'4 bes8 bes8 | % 62
 c'1~ | % 63
 c'4 r8 c'8 ees'4 ees'8 ees'8 | % 64
 \break
-des'4. aes8 des'4 des'4 | % 65
-bes8 bes8 ees'8 bes8 bes4 bes8 ees'8~ | % 66
-ees'1 | % 67
+des'4. aes8 aes4 aes4 | % 65
+bes8 bes8 bes8 bes8 bes4 bes8 aes8~ | % 66
+aes1 | % 67
 r8 bes'8 bes'8 bes'8 bes'8 aes'4 f'8 | % 68
 \break
 aes'4 f'4 f'8 aes'4. | % 69
 r8 bes'8 bes'8 bes'8 bes'4 aes'8 f'8 | % 70
 f'4 ees'4 d'8 ees'4. | % 71
-r8 aes'8 aes'8 aes'8 aes'8 f'4 f'8 | % 72
+r8 aes'8 aes'8 aes'8 aes'8 aes'4 aes'8 | % 72
 \break
-f'4 des'4 des'8 des'8 f'8 f'8 | % 73
-ees'8 ees'4. des'4 g'4 | % 74
+f'4 f'4 f'8 f'8 f'8 f'8 | % 73
+bes8 bes4. bes4 g'4 | % 74
 aes'4 aes'2.~ | % 75
 aes'8 c''8 c''8 c''8 c''8 bes'4 aes'8 | % 76
 \break
 aes'4 f'4 e'8 f'4. | % 77
 r8 bes'8 bes'8 bes'8 bes'4 aes'8 f'8~ | % 78
 f'4 ees'4 d'8 ees'4. | % 79
-r8 aes'8 aes'8 aes'8 aes'8 f'4 f'8 | % 80
+r8 aes'8 aes'8 aes'8 aes'8 aes'4 aes'8 | % 80
 \break
-f'4 des'4 des'4 f'8 f'8 | % 81
-ees'8 ees'4. ees'4 g'4 | % 82
+f'4 f'4 f'4 f'8 f'8 | % 81
+bes8 bes4. bes4 g'4 | % 82
 aes'4 ees'2. | % 83
 % T3 Oo: A-flat through F7 to B-flat
 \key bes \major
@@ -684,13 +663,13 @@ g'8 a'8 g'4 f'2 | % 123
 d'8 ees'4 f'8 g'8 a'4 g'8 | % 124
 \break
 d'8 ees'8 f'4 g'2 | % 125
-r4 e'8 e'8 ees'8 c'4 ees'8~ | % 126
-ees'2. f'8 f'8 | % 127
-g'8 g'4 g'8~ g'4 ees'8 g'8 | % 128
+r4 e'8 e'8 c'8 c'4 d'8~ | % 126
+d'2. d'8 d'8 | % 127
+g'8 g'4 g'8~ g'4 g'8 g'8 | % 128
 \break
 g'8 g'4 g'8~ g'4. g'8 | % 129
 f'4 f'4 d'4 d'4 | % 130
-bes2. f'8 f'8 | % 131
+d'2. f'8 f'8 | % 131
 g'8 g'4 g'8~ g'4 e'8 g'8 | % 132
 \break
 g'4. g'8~ g'2 | % 133
@@ -703,9 +682,9 @@ g'8 a'8 g'4 d'4 f'4 | % 138
 g'1 | % 139
 ees'4 g'4 g'8 g'8 g'8 g'8 | % 140
 \break
-ees'8 ees'8 ges'8 bes'8~ bes'2 | % 141
-r4 g'8 e'8 ees'8 ees'8 ees'4 | % 142
-f'2. r4 | % 143
+ges'8 ges'8 ges'8 g'8~ g'2 | % 141
+r4 g'8 e'8 c'8 c'8 c'4 | % 142
+d'2. r4 | % 143
 % T5 Oo: B-flat7 opens into E-flat
 \key ees \major
 \time 4/4
@@ -780,19 +759,19 @@ r4 bes'8 g'8 g'8 f'4 g'8~ | % 180
 g'8 f'4 ees'8~ ees'8 c'4. | % 181
 aes4 b8 ees'8~ ees'8 f'8 ees'8 ges'8~ | % 182
 ges'8 f'8 ges'8 d'8( b4) r4 | % 183
-bes4 bes4 bes4 bes8 bes8~ | % 184
+bes4 bes4 bes4 bes8 g8~ | % 184
 \break
-bes8 c'4 c'8( c'4) r4 | % 185
-c'4 c'4 c'4 c'8 c'8~ | % 186
-c'8 c'4 c'8( c'4) r4 | % 187
-bes4 bes4 bes8 ees'4 ees'8~ | % 188
+g8 g4 g8( g4) r4 | % 185
+g4 g4 g4 g8 g8~ | % 186
+g8 g4 g8( aes4) r4 | % 187
+g4 bes4 bes8 bes4 e'8~ | % 188
 \break
-ees'8 e'8 e'2 r4 | % 189
+e'8 e'8 e'2 r4 | % 189
 c'4 c'8 c'16 aes16 aes4 aes4 | % 190
-aes4 aes2 aes4 | % 191
+aes4 bes2 bes4 | % 191
 bes8 bes8~ bes4~ bes8 bes8 bes8 bes8 | % 192
 \break
-c'8 c'8 c'8 bes4. r4 | % 193
+g8 g8 g8 g4. r4 | % 193
 % G3 All I Want - bridge taste
 \key ees \major
 \time 4/4
@@ -812,18 +791,18 @@ c'8 c'8 c'4 c'2 | % 202
 \key ees \major
 \time 4/4
 \tempo 4 = 152
-bes4 bes4 bes4 bes8 bes8~ | % 203
-bes8 c'4 c'8( c'4) r4 | % 204
+bes4 bes4 bes4 bes8 g8~ | % 203
+g8 g4 g8( g4) r4 | % 204
 \break
-c'4 c'4 c'4 c'8 c'8~ | % 205
-c'8 c'4 c'8( c'4) r4 | % 206
-bes4 bes4 bes8 ees'4 ees'8~ | % 207
-ees'8 e'8 e'2 r4 | % 208
+g4 g4 g4 g8 g8~ | % 205
+g8 g4 g8( aes4) r4 | % 206
+g4 bes4 bes8 bes4 e'8~ | % 207
+e'8 e'8 e'2 r4 | % 208
 \break
 c'4 c'8 c'16 aes16 aes4 aes4 | % 209
-aes4 aes2 aes4 | % 210
-aes4 aes2~ aes4 | % 211
-aes8 aes8 aes8 aes8 aes8 aes8 aes4 | % 212
+aes4 bes2 bes4 | % 210
+aes4 bes2~ bes4 | % 211
+bes8 bes8 bes8 bes8 bes8 bes8 bes4 | % 212
 \break
 r4 g'2.~ | % 213
 % G5 Final chord - hold, then release together
@@ -946,12 +925,12 @@ ees8 ees8 f8 ees8 des4 des8 c8~ | % 58
 c1~ | % 59
 c4 r8 ees8 aes4 g8 aes8 | % 60
 \break
-f1~ | % 61
-f4 r8 ees8 bes4 g8 ees8 | % 62
-ees1~ | % 63
-ees4 r8 ees8 aes4 aes8 aes8 | % 64
+ees1~ | % 61
+ees4 r8 ees8 ees4 ees8 ees8 | % 62
+aes1~ | % 63
+aes4 r8 aes8 aes4 c'8 aes8 | % 64
 \break
-f4. des8 f4 f4 | % 65
+aes4. des8 des4 des4 | % 65
 ees8 ees8 ees8 ees8 ees4 ees8 ees8~ | % 66
 ees1 | % 67
 r8 bes8 bes8 bes8 bes8 aes4 f8 | % 68
@@ -959,21 +938,21 @@ r8 bes8 bes8 bes8 bes8 aes4 f8 | % 68
 aes4 f4 f8 aes4. | % 69
 r8 bes8 bes8 bes8 bes4 aes8 f8 | % 70
 f4 ees4 d8 ees4. | % 71
-r8 aes8 aes8 aes8 aes8 aes4 aes8 | % 72
+r8 f8 f8 f8 f8 f4 f8 | % 72
 \break
-aes4 f4 f8 f8 aes8 aes8 | % 73
-g8 g4. g4 bes4 | % 74
-aes4 aes2.~ | % 75
+des4 des4 des8 des8 des8 des8 | % 73
+ees8 ees4. ees4 ees4 | % 74
+ees4 aes2.~ | % 75
 aes8 c'8 c'8 c'8 c'8 bes4 aes8 | % 76
 \break
 aes4 f4 e8 f4. | % 77
 r8 bes8 bes8 bes8 bes4 aes8 f8~ | % 78
 f4 ees4 d8 ees4. | % 79
-r8 aes8 aes8 aes8 aes8 aes4 aes8 | % 80
+r8 f8 f8 f8 f8 f4 f8 | % 80
 \break
-aes4 f4 f4 aes8 aes8 | % 81
-g8 g4. g4 bes4 | % 82
-aes4 aes2. | % 83
+des4 des4 des4 des8 des8 | % 81
+ees8 ees4. ees4 ees4 | % 82
+ees4 aes2. | % 83
 % T3 Oo: A-flat through F7 to B-flat
 \key bes \major
 \time 4/4
@@ -1049,16 +1028,16 @@ g8 a8 g4 f2 | % 123
 d8 ees4 f8 g8 a4 g8 | % 124
 \break
 d8 ees8 f4 g2 | % 125
-r4 g8 g8 a8 ees4 a8~ | % 126
-a2. aes8 aes8 | % 127
-bes8 bes4 bes8~ bes4 g8 bes8 | % 128
+r4 c8 c8 f8 f4 f8~ | % 126
+f2. f8 f8 | % 127
+ees8 ees4 ees8~ ees4 ees8 ees8 | % 128
 \break
-bes8 des'4 bes8~ bes4. bes8 | % 129
-bes4 bes4 f4 f4 | % 130
-d2. bes8 bes8 | % 131
-bes8 bes4 bes8~ bes4 g8 bes8 | % 132
+e8 e4 e8~ e4. e8 | % 129
+d4 d4 bes,4 bes,4 | % 130
+bes,2. bes,8 bes,8 | % 131
+d8 d4 c8~ c4 c8 c8 | % 132
 \break
-bes4. bes8~ bes2 | % 133
+d4. c8~ c2 | % 133
 r8 f8 f4 g8 g8 g8 g8 | % 134
 a4 g4 f8~ f4 r8 | % 135
 bes8 bes8 bes4 a8 a8 a4 | % 136
@@ -1066,11 +1045,11 @@ bes8 bes8 bes4 a8 a8 a4 | % 136
 g8 a8 g8 d8~ d2 | % 137
 g8 a8 g4 d4 f4 | % 138
 g1 | % 139
-g4 bes4 bes8 bes8 bes8 bes8 | % 140
+bes,4 ees4 ees8 ees8 ees8 ees8 | % 140
 \break
-ges8 ges8 c'8 c'8~ c'2 | % 141
-r4 bes8 bes8 a8 a8 a4 | % 142
-bes2. r4 | % 143
+ees8 ees8 ees8 c8~ c2 | % 141
+r4 c8 c8 f8 f8 f4 | % 142
+f2. r4 | % 143
 % T5 Oo: B-flat7 opens into E-flat
 \key ees \major
 \time 4/4
@@ -1145,19 +1124,19 @@ r4 bes8 g8 g8 f4 g8~ | % 180
 g8 f4 ees8~ ees8 c4. | % 181
 aes,4 b,8 ees8~ ees8 f8 ees8 ges8~ | % 182
 ges8 f8 ges8 d8( b,4) r4 | % 183
-g4 g4 g4 g8 g8~ | % 184
+ees4 ees4 g4 ees8 c8~ | % 184
 \break
-g8 g4 g8( g4) r4 | % 185
-g4 g4 g4 g8 g8~ | % 186
-g8 g4 g8( g4) r4 | % 187
-g4 g4 g8 g4 g8~ | % 188
+c8 c4 c8( d4) r4 | % 185
+c4 c4 c4 c8 c8~ | % 186
+c8 c4 c8( ees4) r4 | % 187
+ees4 ees4 ees8 ees4 c8~ | % 188
 \break
-g8 g8 g2 r4 | % 189
-f4 aes8 aes16 f16 f4 f4 | % 190
+c8 c8 c2 r4 | % 189
+f4 f8 f16 f16 f4 f4 | % 190
 ees4 d2 d4 | % 191
-g8 g8~ g4~ g8 g8 g8 g8 | % 192
+ees8 g8~ g4~ g8 ees8 g8 ees8 | % 192
 \break
-g8 g8 g8 bes,4. r4 | % 193
+c8 c8 c8 c4. r4 | % 193
 % G3 All I Want - bridge taste
 \key ees \major
 \time 4/4
@@ -1166,7 +1145,7 @@ r2 r8 bes4. | % 194
 g8 f16 ees16 d8 r8 f4 g8 aes8~ | % 195
 aes8 g4 f8~ f8 g8 f8 ees8 | % 196
 \break
-ees4 g8 g8~ g8 ees8 ees8 ees8~ | % 197
+g4 g8 g8~ g8 ees8 ees8 ees8~ | % 197
 ees8 ees8 ees4 ees2 | % 198
 r2 f8 g4 c'8~ | % 199
 c'8 bes4 g16 f16 ees8 ees4. | % 200
@@ -1177,18 +1156,18 @@ g8 ees8 ees4 g2 | % 202
 \key ees \major
 \time 4/4
 \tempo 4 = 152
-g4 g4 g4 g8 g8~ | % 203
-g8 g4 g8( g4) r4 | % 204
+ees4 ees4 g4 ees8 c8~ | % 203
+c8 c4 c8( d4) r4 | % 204
 \break
-g4 g4 g4 g8 g8~ | % 205
-g8 g4 g8( g4) r4 | % 206
-g4 g4 g8 g4 g8~ | % 207
-g8 g8 g2 r4 | % 208
+c4 c4 c4 c8 c8~ | % 205
+c8 c4 c8( ees4) r4 | % 206
+ees4 ees4 ees8 ees4 c8~ | % 207
+c8 c8 c2 r4 | % 208
 \break
-f4 aes8 aes16 f16 f4 f4 | % 209
+f4 f8 f16 f16 f4 f4 | % 209
 ees4 d2 d4 | % 210
 ees4 d2~ d4 | % 211
-d8 d8 d8 bes,8 bes,8 bes,8 bes,4 | % 212
+d8 d8 f8 f8 f8 f8 f4 | % 212
 \break
 r4 ees2.~ | % 213
 % G5 Final chord - hold, then release together

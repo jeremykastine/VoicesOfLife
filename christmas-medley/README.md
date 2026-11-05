@@ -11,3 +11,5 @@ Swing is applied to actual playback event times for E and fast G, without changi
 Sources are the current seven song scores on main, including the Mary rhythm corrections. Melody passages use unison/octaves, with selected existing harmony adapted to the new ranges. Editorial cuts stop incomplete ties; the exposed cadences and short Oo key bridges are arranged here. The Little Drummer Boy background uses a simple repeating pulse with Bb, Eb, F and Ab roots; optional fifths occur only at mm. 107 and 109-110.
 
 All original song and source arrangement rights remain with their respective owners. See the lyric guide for credits. validation.json records automated checks and states any missing verification.
+
+Selected harmony in Feliz Navidad, Jingle Bell Rock and All I Want is revoiced from the source chord changes into simple triads, avoiding exposed semitone clashes. Cadences are kept light; the melody and its rhythms remain the guide.
