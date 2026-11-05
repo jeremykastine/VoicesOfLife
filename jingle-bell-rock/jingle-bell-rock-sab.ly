@@ -1,5 +1,6 @@
 \version "2.24.3"
 \pointAndClickOff
+% Playback: eighth-note swing 2:1 is applied by swing_playback.py during audio rendering.
 % Piano harmony reviewed 2026-11-04; see PIANO_REVIEW.md for editorial changes.
 #(set-global-staff-size 16)
 \paper { #(set-paper-size "letter") top-margin = 12\mm bottom-margin = 12\mm left-margin = 14\mm right-margin = 12\mm ragged-last-bottom = ##f }

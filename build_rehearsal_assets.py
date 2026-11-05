@@ -8,6 +8,8 @@ LilyPond is the authoritative notation source. MIDI/WAV stay intermediate.
 from __future__ import annotations
 
 import argparse
+import sys
+from swing_playback import swing_midi
 import copy
 import os
 from pathlib import Path
@@ -161,6 +163,8 @@ def build(source: Path, soundfont: Path, work: Path) -> None:
     source.with_suffix('.pdf').write_bytes(prefix.with_suffix('.pdf').read_bytes())
     sync_musicxml(source)
     original = mido.MidiFile(prefix.with_suffix('.midi'))
+    if source.parent.name == 'jingle-bell-rock':
+        original = swing_midi(original)
     for name, solo in [('sab', None), ('soprano-practice', 0), ('alto-practice', 1), ('baritone-practice', 2)]:
         basename = source.stem.removesuffix('-sab') + '-' + name
         intermediate = work / basename
@@ -193,6 +197,8 @@ def main() -> None:
         if missing:
             parser.error(f'Unknown songs: {sorted(missing)}')
         sources = [s for s in sources if s.parent.name in args.songs]
+    if not args.songs:
+        run([sys.executable, str(ROOT / 'christmas-medley' / 'build_medley.py')])
     with tempfile.TemporaryDirectory(prefix='voices-of-life-') as temp:
         for source in sources:
             build(source, args.soundfont, Path(temp))
