@@ -34,16 +34,16 @@ soprano = {
   ees'16 f'8 ges'16~ ges'16 aes'8 ces''8 bes'8. r16 bes'16 ees''16 ees''16~ | % 8
   ees''4\mf^\markup \italic "Harmony" r16 ees''16 ges''16 f''16~ f''8 ees''16 des''16~ des''8 r16 bes'16 | % 9
   bes'8 bes'16 des''16~ des''16 ees''8 ees''16~ ees''4 r8 bes'16 ces''16~ | % 10
-  ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16 bes'4 r8 aes'16 bes'16~ | % 11
-  bes'8 bes'16 bes'16 ces''8 bes'4 r8 ees'16 f'16 ges'16 aes'16 | % 12
+  ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16~ aes'16 bes'8. r8 aes'16 bes'16~ | % 11
+  bes'8. ces''16 bes'16 ces''8 bes'8. r8 ees'16 f'16 ges'16 aes'16 | % 12
   bes'8 r8 r16 ees'16 bes'16 aes'16~ aes'8 ges'16 f'16~ f'8 r16 ees'16 | % 13
   ees'16 f'8 ges'16~ ges'16 aes'8 ges'16~ ges'16 f'8. ees'16 f'16 ges'16 aes'16 | % 14
   bes'8 r8 r16 ees'16 bes'16 aes'16~ aes'8 ges'16 f'16~ f'8 r16 ees'16 | % 15
-  ees'16 f'8 ges'16~ ges'16 aes'8 ces''16 bes'4 r16 bes'16 ees''16 ees''16~ | % 16
+  ees'16 f'8 ges'16~ ges'16 aes'8 ces''8 bes'8. r16 bes'16 ees''16 ees''16~ | % 16
   ees''4\mf^\markup \italic "Harmony" r16 ees''16 ges''16 f''16~ f''8 ees''16 des''16~ des''8 r16 bes'16 | % 17
   bes'8 bes'16 des''16~ des''16 ees''8 ees''16~ ees''4 r8 bes'16 ces''16 | % 18
-  ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16 bes'4 r8 aes'16 bes'16~ | % 19
-  bes'8 bes'16 bes'16 ces''8 bes'4. r8 bes'16 aes'16~ | % 20
+  ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16~ aes'16 bes'8. r8 aes'16 bes'16~ | % 19
+  bes'8. ces''16 bes'16 ces''8 bes'4~ bes'16 r8 bes'16 aes'16~ | % 20
   aes'16 ges'16 ees'16 des'16 ees'4 r4 r8. ees''16~ | % 21
   ees''2. f''4~ | % 22
   f''4 ees''8 des''8 bes'2 | % 23
@@ -56,10 +56,10 @@ soprano = {
   bes'8\mp^\markup \italic "Unison" r8 r16 ees'16 bes'16 aes'16~ aes'8 ges'16 f'16~ f'8 r16 ees'16 | % 30
   ees'16 f'8 ges'16~ ges'16 aes'8 ges'16~ ges'16 f'8. ees'16 f'16 ges'16 aes'16 | % 31
   bes'8 r8 r16 ees'16 bes'16 aes'16~ aes'8 ges'16 f'16~ f'8 r16 ees'16 | % 32
-  ees'16 f'8 ges'16~ ges'16 aes'8 ces''16 bes'4 r16 bes'16 ees''16 ees''16~ | % 33
+  ees'16 f'8 ges'16~ ges'16 aes'8 ces''8 bes'8. r16 bes'16 ees''16 ees''16~ | % 33
   ees''4\mf^\markup \italic "Harmony" r16 ees''16 ges''16 f''16~ f''8 ees''16 des''16~ des''8 r16 bes'16 | % 34
   bes'8 bes'16 des''16~ des''16 ees''8 ees''16~ ees''4 r8 bes'16 ces''16~ | % 35
-  ces''8 bes'16 aes'16~ aes'8. ges'16 aes'16 bes'8. r8 ges'16 aes'16 | % 36
+  ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16~ aes'16 bes'8. r8 ges'16 aes'16 | % 36
   bes'4\mf^\markup \italic "Harmony" r4 d''2 | % 37
   ees''1\p~ | % 38
   ees''2 r2 | % 39
@@ -76,16 +76,16 @@ alto = {
   ees'16 f'8 ges'16~ ges'16 aes'8 ces''8 bes'8. r16 bes'16 ees''16 ces''16~ | % 8
   ces''4\mf r16 ces''16 ees''16 des''16~ des''8 ces''16 aes'16~ aes'8 r16 f'16 | % 9
   ges'8 ges'16 bes'16~ bes'16 des''8 bes'16~ bes'4 r8 bes'16 ces''16~ | % 10
-  ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16 bes'4 r8 aes'16 bes'16~ | % 11
-  bes'8 bes'16 bes'16 ces''8 bes'4 r8 ees'16 f'16 ges'16 aes'16 | % 12
+  ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16~ aes'16 bes'8. r8 aes'16 bes'16~ | % 11
+  bes'8. ces''16 bes'16 ces''8 bes'8. r8 ees'16 f'16 ges'16 aes'16 | % 12
   bes'8 r8 r16 ees'16 bes'16 aes'16~ aes'8 ges'16 f'16~ f'8 r16 ees'16 | % 13
   ees'16 f'8 ges'16~ ges'16 aes'8 ges'16~ ges'16 f'8. ees'16 f'16 ges'16 aes'16 | % 14
   bes'8 r8 r16 ees'16 bes'16 aes'16~ aes'8 ges'16 f'16~ f'8 r16 ees'16 | % 15
-  ees'16 f'8 ges'16~ ges'16 aes'8 ces''16 bes'4 r16 bes'16 ees''16 ces''16~ | % 16
+  ees'16 f'8 ges'16~ ges'16 aes'8 ces''8 bes'8. r16 bes'16 ees''16 ces''16~ | % 16
   ces''4\mf r16 ces''16 ees''16 des''16~ des''8 ces''16 aes'16~ aes'8 r16 f'16 | % 17
   ges'8 ges'16 bes'16~ bes'16 des''8 bes'16~ bes'4 r8 bes'16 ces''16 | % 18
-  ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16 bes'4 r8 aes'16 bes'16~ | % 19
-  bes'8 bes'16 bes'16 ces''8 bes'4. r8 bes'16 aes'16~ | % 20
+  ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16~ aes'16 bes'8. r8 aes'16 bes'16~ | % 19
+  bes'8. ces''16 bes'16 ces''8 bes'4~ bes'16 r8 bes'16 aes'16~ | % 20
   aes'16 ges'16 ees'16 des'16 ees'4 r4 r8. ces''16~ | % 21
   ces''2. des''4~ | % 22
   des''4 bes'8 aes'8 f'2 | % 23
@@ -98,10 +98,10 @@ alto = {
   bes'8\mp r8 r16 ees'16 bes'16 aes'16~ aes'8 ges'16 f'16~ f'8 r16 ees'16 | % 30
   ees'16 f'8 ges'16~ ges'16 aes'8 ges'16~ ges'16 f'8. ees'16 f'16 ges'16 aes'16 | % 31
   bes'8 r8 r16 ees'16 bes'16 aes'16~ aes'8 ges'16 f'16~ f'8 r16 ees'16 | % 32
-  ees'16 f'8 ges'16~ ges'16 aes'8 ces''16 bes'4 r16 bes'16 ees''16 ces''16~ | % 33
+  ees'16 f'8 ges'16~ ges'16 aes'8 ces''8 bes'8. r16 bes'16 ees''16 ces''16~ | % 33
   ces''4\mf r16 ces''16 ees''16 des''16~ des''8 ces''16 aes'16~ aes'8 r16 f'16 | % 34
   ges'8 ges'16 bes'16~ bes'16 des''8 bes'16~ bes'4 r8 bes'16 ces''16~ | % 35
-  ces''8 bes'16 aes'16~ aes'8. ges'16 aes'16 bes'8. r8 ges'16 aes'16 | % 36
+  ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16~ aes'16 bes'8. r8 ges'16 aes'16 | % 36
   f'4\mf r4 f'2 | % 37
   bes'1\p~ | % 38
   bes'2 r2 | % 39
@@ -118,16 +118,16 @@ baritone = {
   ees16 f8 ges16~ ges16 aes8 ces'8 bes8. r16 bes16 ees'16 aes16~ | % 8
   aes4\mf r16 aes16 ces'16 aes16~ aes8 aes16 f16~ f8 r16 des16 | % 9
   bes8 bes16 bes16~ bes16 ges8 ges16~ ges4 r8 bes16 ces'16~ | % 10
-  ces'8 bes16 aes16~ aes8 ges16 aes16 bes4 r8 aes16 bes16~ | % 11
-  bes8 bes16 bes16 ces'8 bes4 r8 ees16 f16 ges16 aes16 | % 12
+  ces'8 bes16 aes16~ aes8 ges16 aes16~ aes16 bes8. r8 aes16 bes16~ | % 11
+  bes8. ces'16 bes16 ces'8 bes8. r8 ees16 f16 ges16 aes16 | % 12
   bes8 r8 r16 ees16 bes16 aes16~ aes8 ges16 f16~ f8 r16 ees16 | % 13
   ees16 f8 ges16~ ges16 aes8 ges16~ ges16 f8. ees16 f16 ges16 aes16 | % 14
   bes8 r8 r16 ees16 bes16 aes16~ aes8 ges16 f16~ f8 r16 ees16 | % 15
-  ees16 f8 ges16~ ges16 aes8 ces'16 bes4 r16 bes16 ees'16 aes16~ | % 16
+  ees16 f8 ges16~ ges16 aes8 ces'8 bes8. r16 bes16 ees'16 aes16~ | % 16
   aes4\mf r16 aes16 ces'16 aes16~ aes8 aes16 f16~ f8 r16 des16 | % 17
   bes8 bes16 bes16~ bes16 ges8 ges16~ ges4 r8 bes16 ces'16 | % 18
-  ces'8 bes16 aes16~ aes8 ges16 aes16 bes4 r8 aes16 bes16~ | % 19
-  bes8 bes16 bes16 ces'8 bes4. r8 bes16 aes16~ | % 20
+  ces'8 bes16 aes16~ aes8 ges16 aes16~ aes16 bes8. r8 aes16 bes16~ | % 19
+  bes8. ces'16 bes16 ces'8 bes4~ bes16 r8 bes16 aes16~ | % 20
   aes16 ges16 ees16 des16 ees4 r4 r8. aes16~ | % 21
   aes2. bes4~ | % 22
   bes4 ges8 f8 des2 | % 23
@@ -140,10 +140,10 @@ baritone = {
   bes8\mp r8 r16 ees16 bes16 aes16~ aes8 ges16 f16~ f8 r16 ees16 | % 30
   ees16 f8 ges16~ ges16 aes8 ges16~ ges16 f8. ees16 f16 ges16 aes16 | % 31
   bes8 r8 r16 ees16 bes16 aes16~ aes8 ges16 f16~ f8 r16 ees16 | % 32
-  ees16 f8 ges16~ ges16 aes8 ces'16 bes4 r16 bes16 ees'16 aes16~ | % 33
+  ees16 f8 ges16~ ges16 aes8 ces'8 bes8. r16 bes16 ees'16 aes16~ | % 33
   aes4\mf r16 aes16 ces'16 aes16~ aes8 aes16 f16~ f8 r16 des16 | % 34
   bes8 bes16 bes16~ bes16 ges8 ges16~ ges4 r8 bes16 ces'16~ | % 35
-  ces'8 bes16 aes16~ aes8. ges16 aes16 bes8. r8 ges16 aes16 | % 36
+  ces'8 bes16 aes16~ aes8 ges16 aes16~ aes16 bes8. r8 ges16 aes16 | % 36
   bes4\mf r4 bes2 | % 37
   ges1\p~ | % 38
   ges2 r2 | % 39
@@ -160,16 +160,16 @@ pianoRH = {
   << { \voiceOne ees'16 f'8 ges'16~ ges'16 aes'8 ces''8 bes'8. r16 bes'16 ees''16 ees''16~ } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 bes8 ees'16 f'16 bes8 d'16 aes'16 } >> \oneVoice | % 8
   << { \voiceOne ees''4 r16 ees''16 ges''16 f''16~ f''8 ees''16 des''16~ des''8 r16 bes'16 } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 aes8 des'16 f'16~ f'8 des'8 } >> \oneVoice | % 9
   << { \voiceOne bes'8 bes'16 des''16~ des''16 ees''8 ees''16~ ees''4 r8 bes'16 ces''16~ } \\ { \voiceTwo bes8 des'16 ges'16 bes8 des'16 f'16 bes8 ees'16 ges'16~ ges'8 ees'8 } >> \oneVoice | % 10
-  << { \voiceOne ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16 bes'4 r8 aes'16 bes'16~ } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 ces'8 ees'16 aes'16~ aes'8 ees'8 } >> \oneVoice | % 11
-  << { \voiceOne bes'8 bes'16 bes'16 ces''8 bes'4 r8 ees'16 f'16 ges'16 aes'16 } \\ { \voiceTwo bes8 ees'16 f'16~ f'8 ees'8 bes8 d'16 aes'16~ aes'8 d'8 } >> \oneVoice | % 12
+  << { \voiceOne ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16~ aes'16 bes'8. r8 aes'16 bes'16~ } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 ces'8 ees'16 aes'16~ aes'8 ees'8 } >> \oneVoice | % 11
+  << { \voiceOne bes'8. ces''16 bes'16 ces''8 bes'8. r8 ees'16 f'16 ges'16 aes'16 } \\ { \voiceTwo bes8 ees'16 f'16~ f'8 ees'8 bes8 d'16 aes'16~ aes'8 d'8 } >> \oneVoice | % 12
   << { \voiceOne bes'8 r8 r16 ees'16 bes'16 aes'16~ aes'8 ges'16 f'16~ f'8 r16 ees'16 } \\ { \voiceTwo bes8 ees'16 ges'16~ ges'8 ees'8 aes8 des'16 f'16~ f'8 des'8 } >> \oneVoice | % 13
   << { \voiceOne ees'16 f'8 ges'16~ ges'16 aes'8 ges'16~ ges'16 f'8. ees'16 f'16 ges'16 aes'16 } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 bes8 ees'16 f'16 bes8 d'16 aes'16 } >> \oneVoice | % 14
   << { \voiceOne bes'8 r8 r16 ees'16 bes'16 aes'16~ aes'8 ges'16 f'16~ f'8 r16 ees'16 } \\ { \voiceTwo bes8 ees'16 ges'16~ ges'8 ees'8 aes8 des'16 f'16~ f'8 des'8 } >> \oneVoice | % 15
-  << { \voiceOne ees'16 f'8 ges'16~ ges'16 aes'8 ces''16 bes'4 r16 bes'16 ees''16 ees''16~ } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 bes8 ees'16 f'16 bes8 d'16 aes'16 } >> \oneVoice | % 16
+  << { \voiceOne ees'16 f'8 ges'16~ ges'16 aes'8 ces''8 bes'8. r16 bes'16 ees''16 ees''16~ } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 bes8 ees'16 f'16 bes8 d'16 aes'16 } >> \oneVoice | % 16
   << { \voiceOne ees''4 r16 ees''16 ges''16 f''16~ f''8 ees''16 des''16~ des''8 r16 bes'16 } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 aes8 des'16 f'16~ f'8 des'8 } >> \oneVoice | % 17
   << { \voiceOne bes'8 bes'16 des''16~ des''16 ees''8 ees''16~ ees''4 r8 bes'16 ces''16 } \\ { \voiceTwo bes8 des'16 ges'16 bes8 des'16 f'16 bes8 ees'16 ges'16~ ges'8 ees'8 } >> \oneVoice | % 18
-  << { \voiceOne ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16 bes'4 r8 aes'16 bes'16~ } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 ces'8 ees'16 aes'16~ aes'8 ees'8 } >> \oneVoice | % 19
-  << { \voiceOne bes'8 bes'16 bes'16 ces''8 bes'4. r8 bes'16 aes'16~ } \\ { \voiceTwo bes8 ees'16 f'16~ f'8 ees'8 bes8 d'16 aes'16~ aes'8 d'8 } >> \oneVoice | % 20
+  << { \voiceOne ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16~ aes'16 bes'8. r8 aes'16 bes'16~ } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 ces'8 ees'16 aes'16~ aes'8 ees'8 } >> \oneVoice | % 19
+  << { \voiceOne bes'8. ces''16 bes'16 ces''8 bes'4~ bes'16 r8 bes'16 aes'16~ } \\ { \voiceTwo bes8 ees'16 f'16~ f'8 ees'8 bes8 d'16 aes'16~ aes'8 d'8 } >> \oneVoice | % 20
   << { \voiceOne aes'16 ges'16 ees'16 des'16 ees'4 r4 r8. ees''16 } \\ { \voiceTwo bes8 ees'16 ges'16~ ges'8 ees'8 aes8 des'16 f'16~ f'8 des'8 } >> \oneVoice | % 21
   << { \voiceOne des'8 bes16 des'16~ des'16 ees'8 des'16~ des'16 bes16 ees'16 ges'16 d'16 bes16 bes'16 d'16 } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 bes8 ees'16 f'16 bes8 d'16 aes'16 } >> \oneVoice | % 22
   << { \voiceOne r8 ees'16 ges'16~ ges'16 ees'8 ges'16~ ges'8 des'16 ees'16~ ees'16 ges'8 des'16~ } \\ { \voiceTwo bes8 ees'16 ges'16~ ges'8 ees'8 aes8 des'16 f'16~ f'8 des'8 } >> \oneVoice | % 23
@@ -182,10 +182,10 @@ pianoRH = {
   << { \voiceOne bes'8 r8 r16 ees'16 bes'16 aes'16~ aes'8 ges'16 f'16~ f'8 r16 ees'16 } \\ { \voiceTwo bes8 ees'16 ges'16~ ges'8 ees'8 aes8 des'16 f'16~ f'8 des'8 } >> \oneVoice | % 30
   << { \voiceOne ees'16 f'8 ges'16~ ges'16 aes'8 ges'16~ ges'16 f'8. ees'16 f'16 ges'16 aes'16 } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 bes8 ees'16 f'16 bes8 d'16 aes'16 } >> \oneVoice | % 31
   << { \voiceOne bes'8 r8 r16 ees'16 bes'16 aes'16~ aes'8 ges'16 f'16~ f'8 r16 ees'16 } \\ { \voiceTwo bes8 ees'16 ges'16~ ges'8 ees'8 aes8 des'16 f'16~ f'8 des'8 } >> \oneVoice | % 32
-  << { \voiceOne ees'16 f'8 ges'16~ ges'16 aes'8 ces''16 bes'4 r16 bes'16 ees''16 ees''16~ } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 bes8 ees'16 f'16 bes8 d'16 aes'16 } >> \oneVoice | % 33
+  << { \voiceOne ees'16 f'8 ges'16~ ges'16 aes'8 ces''8 bes'8. r16 bes'16 ees''16 ees''16~ } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 bes8 ees'16 f'16 bes8 d'16 aes'16 } >> \oneVoice | % 33
   << { \voiceOne ees''4 r16 ees''16 ges''16 f''16~ f''8 ees''16 des''16~ des''8 r16 bes'16 } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 aes8 des'16 f'16~ f'8 des'8 } >> \oneVoice | % 34
   << { \voiceOne bes'8 bes'16 des''16~ des''16 ees''8 ees''16~ ees''4 r8 bes'16 ces''16~ } \\ { \voiceTwo bes8 des'16 ges'16 bes8 des'16 f'16 bes8 ees'16 ges'16~ ges'8 ees'8 } >> \oneVoice | % 35
-  << { \voiceOne ces''8 bes'16 aes'16~ aes'8. ges'16 aes'16 bes'8. r8 ges'16 aes'16 } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 ces'8 ees'16 aes'16~ aes'8 ees'8 } >> \oneVoice | % 36
+  << { \voiceOne ces''8 bes'16 aes'16~ aes'8 ges'16 aes'16~ aes'16 bes'8. r8 ges'16 aes'16 } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 ces'8 ees'16 aes'16~ aes'8 ees'8 } >> \oneVoice | % 36
   << { \voiceOne bes'4 r4 <d' f' bes'>2 } \\ { \voiceTwo bes8 d'16 f'16~ f'8 d'8 bes8 d'16 f'16~ f'8 d'8 } >> \oneVoice | % 37
   << { \voiceOne r8 ees'16 ges'16~ ges'16 ees'8 ges'16~ ges'8 bes16 ees'16~ ees'16 ges'8 bes16~ } \\ { \voiceTwo bes8 ees'16 ges'16~ ges'8 ees'8 bes8 ees'16 ges'16~ ges'8 ees'8 } >> \oneVoice | % 38
   << { \voiceOne bes8 ees'16 ges'16~ ges'16 ees'8 ges'16 f'8 f'16 d'16~ d'16 f'8 d'16 } \\ { \voiceTwo ces'8 ees'16 aes'16~ aes'8 ees'8 bes8 d'16 f'16~ f'8 aes'8 } >> \oneVoice | % 39
